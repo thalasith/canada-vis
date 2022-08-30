@@ -16,10 +16,9 @@ const GeoJSONData: GeoJSON.Feature = {
 };
 
 interface Props {
-  setZoomLevel: Function;
-  // setData: Function;
+  setZoomLevel: (arg0: any) => void;
   data: typeof GeoJSONData;
-  setSelectedGeo: Function;
+  setSelectedGeo: (arg0: any) => void;
 }
 
 const OverLays = ({ setZoomLevel, data, setSelectedGeo }: Props) => {
