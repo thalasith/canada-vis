@@ -1,0 +1,1388 @@
+CHARACTERISTIC_ID,CHARACTERISTIC_NAME,Depth,Keep or Not Keep,Category,Flag,NEW_CHARACTERISTIC_NAME
+1,"Population, 2021",0,Keep,summary,Summary,"Population, 2021"
+2,"Population, 2016",0,Keep,summary,Summary,"Population, 2016"
+3,"Population percentage change, 2016 to 2021",0,Keep,summary,Summary,"Population percentage change, 2016 to 2021"
+4,Total private dwellings,0,Keep,summary,Summary,Total private dwellings
+5,Private dwellings occupied by usual residents,0,Keep,summary,Summary,Private dwellings occupied by usual residents
+6,Population density per square kilometre,0,Keep,summary,Summary,Population density per square kilometre
+7,Land area in square kilometres,0,Keep,summary,Summary,Land area in square kilometres
+8,Total - Age groups of the population - 100% data,0,Keep,age_groups_of_the_population,Total,Total - Age groups of the population - 100% data
+9,  0 to 14 years,2,No Keep,age_groups_of_the_population,Category,0 to 14 years
+10,    0 to 4 years,4,Keep,age_groups_of_the_population,Category,0 to 4 years
+11,    5 to 9 years,4,Keep,age_groups_of_the_population,Category,5 to 9 years
+12,    10 to 14 years,4,Keep,age_groups_of_the_population,Category,10 to 14 years
+13,  15 to 64 years,2,No Keep,age_groups_of_the_population,Category,15 to 64 years
+14,    15 to 19 years,4,Keep,age_groups_of_the_population,Category,15 to 19 years
+15,    20 to 24 years,4,Keep,age_groups_of_the_population,Category,20 to 24 years
+16,    25 to 29 years,4,Keep,age_groups_of_the_population,Category,25 to 29 years
+17,    30 to 34 years,4,Keep,age_groups_of_the_population,Category,30 to 34 years
+18,    35 to 39 years,4,Keep,age_groups_of_the_population,Category,35 to 39 years
+19,    40 to 44 years,4,Keep,age_groups_of_the_population,Category,40 to 44 years
+20,    45 to 49 years,4,Keep,age_groups_of_the_population,Category,45 to 49 years
+21,    50 to 54 years,4,Keep,age_groups_of_the_population,Category,50 to 54 years
+22,    55 to 59 years,4,Keep,age_groups_of_the_population,Category,55 to 59 years
+23,    60 to 64 years,4,Keep,age_groups_of_the_population,Category,60 to 64 years
+24,  65 years and over,2,No Keep,age_groups_of_the_population,Category,65 years and over
+25,    65 to 69 years,4,Keep,age_groups_of_the_population,Category,65 to 69 years
+26,    70 to 74 years,4,Keep,age_groups_of_the_population,Category,70 to 74 years
+27,    75 to 79 years,4,Keep,age_groups_of_the_population,Category,75 to 79 years
+28,    80 to 84 years,4,Keep,age_groups_of_the_population,Category,80 to 84 years
+29,    85 years and over,4,No Keep,age_groups_of_the_population,Category,85 years and over
+30,      85 to 89 years,6,Keep,age_groups_of_the_population,Category,85 to 89 years
+31,      90 to 94 years,6,Keep,age_groups_of_the_population,Category,90 to 94 years
+32,      95 to 99 years,6,Keep,age_groups_of_the_population,Category,95 to 99 years
+33,      100 years and over,6,Keep,age_groups_of_the_population,Category,100 years and over
+34,Total - Distribution (%) of the population by broad age groups - 100% data,0,Keep,summary,Summary,Total - Distribution (%) of the population by broad age groups - 100% data
+35,  0 to 14 years,2,Keep,summary,Summary,0 to 14 years - Distribution (%) of the population by broad age groups 
+36,  15 to 64 years,2,Keep,summary,Summary,15 to 64 years - Distribution (%) of the population by broad age groups 
+37,  65 years and over,2,No Keep,summary,Summary,65 years and over - Distribution (%) of the population by broad age groups 
+38,    85 years and over,4,Keep,summary,Summary,85 years and over - Distribution (%) of the population by broad age groups 
+39,Average age of the population,0,Keep,summary,Summary,Average age of the population
+40,Median age of the population,0,Keep,summary,Summary,Median age of the population
+41,Total - Occupied private dwellings by structural type of dwelling - 100% data,0,Keep,occupied_private_dwellings_by_structural_type_of_dwelling,Total,Total - Occupied private dwellings by structural type of dwelling - 100% data
+42,  Single-detached house,2,Keep,occupied_private_dwellings_by_structural_type_of_dwelling,Category,Single-detached house
+43,  Semi-detached house,2,Keep,occupied_private_dwellings_by_structural_type_of_dwelling,Category,Semi-detached house
+44,  Row house,2,Keep,occupied_private_dwellings_by_structural_type_of_dwelling,Category,Row house
+45,  Apartment or flat in a duplex,2,Keep,occupied_private_dwellings_by_structural_type_of_dwelling,Category,Apartment or flat in a duplex
+46,  Apartment in a building that has fewer than five storeys,2,Keep,occupied_private_dwellings_by_structural_type_of_dwelling,Category,Apartment in a building that has fewer than five storeys
+47,  Apartment in a building that has five or more storeys,2,Keep,occupied_private_dwellings_by_structural_type_of_dwelling,Category,Apartment in a building that has five or more storeys
+48,  Other single-attached house,2,Keep,occupied_private_dwellings_by_structural_type_of_dwelling,Category,Other single-attached house
+49,  Movable dwelling,2,Keep,occupied_private_dwellings_by_structural_type_of_dwelling,Category,Movable dwelling
+50,Total - Private households by household size - 100% data,0,Keep,private_household_by_household_size,Total,Total - Private households by household size - 100% data
+51,  1 person,2,Keep,private_household_by_household_size,Category,1 person
+52,  2 persons,2,Keep,private_household_by_household_size,Category,2 persons
+53,  3 persons,2,Keep,private_household_by_household_size,Category,3 persons
+54,  4 persons,2,Keep,private_household_by_household_size,Category,4 persons
+55,  5 or more persons,2,Keep,private_household_by_household_size,Category,5 or more persons
+56,Number of persons in private households,0,Keep,summary,Summary,Number of persons in private households
+57,Average household size,0,Keep,summary,Summary,Average household size
+58,Total - Marital status for the total population aged 15 years and over - 100% data,0,Keep,marital_status_for_the_total_population_aged_15_years_and_over,Total,Total - Marital status for the total population aged 15 years and over - 100% data
+59,  Married or living common-law,2,No Keep,marital_status_for_the_total_population_aged_15_years_and_over,Category,Married or living common-law
+60,    Married,4,Keep,marital_status_for_the_total_population_aged_15_years_and_over,Category,Married
+61,    Living common-law,4,No Keep,marital_status_for_the_total_population_aged_15_years_and_over,Category,Living common-law
+62,      Living common law - Never married,6,Keep,marital_status_for_the_total_population_aged_15_years_and_over,Category,Living common law - Never married
+63,      Living common law - Separated,6,Keep,marital_status_for_the_total_population_aged_15_years_and_over,Category,Living common law - Separated
+64,      Living common law - Divorced,6,Keep,marital_status_for_the_total_population_aged_15_years_and_over,Category,Living common law - Divorced
+65,      Living common law - Widowed,6,Keep,marital_status_for_the_total_population_aged_15_years_and_over,Category,Living common law - Widowed
+66,  Not married and not living common-law,2,No Keep,marital_status_for_the_total_population_aged_15_years_and_over,Category,Not married and not living common-law
+67,    Not married and not living common law - Never married,4,Keep,marital_status_for_the_total_population_aged_15_years_and_over,Category,Not married and not living common law - Never married
+68,    Not married and not living common law - Separated,4,Keep,marital_status_for_the_total_population_aged_15_years_and_over,Category,Not married and not living common law - Separated
+69,    Not married and not living common law - Divorced,4,Keep,marital_status_for_the_total_population_aged_15_years_and_over,Category,Not married and not living common law - Divorced
+70,    Not married and not living common law - Widowed,4,Keep,marital_status_for_the_total_population_aged_15_years_and_over,Category,Not married and not living common law - Widowed
+71,Total - Census families in private households by family size - 100% data,0,Keep,census_families_in_private_households_by_family_size,Total,Total - Census families in private households by family size - 100% data
+72,  2 persons,2,Keep,census_families_in_private_households_by_family_size,Category,2 persons
+73,  3 persons,2,Keep,census_families_in_private_households_by_family_size,Category,3 persons
+74,  4 persons,2,Keep,census_families_in_private_households_by_family_size,Category,4 persons
+75,  5 or more persons,2,Keep,census_families_in_private_households_by_family_size,Category,5 or more persons
+76,Average size of census families,0,Keep,summary,Summary,Average size of census families
+77,Average number of children in census families with children,0,Keep,summary,Summary,Average number of children in census families with children
+78,Total number of census families in private households - 100% data,0,Keep,total_number_of_census_families_in_privatehousehold,Total,Total number of census families in private households - 100% data
+79,  Total couple families,2,No Keep,total_number_of_census_families_in_privatehousehold,Category,Total couple families
+80,    Married couples,4,No Keep,total_number_of_census_families_in_privatehousehold,Category,Married couples
+81,      With children,6,Keep,total_number_of_census_families_in_privatehousehold,Category,Married with children
+82,      Without children,6,Keep,total_number_of_census_families_in_privatehousehold,Category,Married without children
+83,    Common-law couples,4,No Keep,total_number_of_census_families_in_privatehousehold,Category,Common-law couples
+84,      With children,6,Keep,total_number_of_census_families_in_privatehousehold,Category,Common-law with children
+85,      Without children,6,Keep,total_number_of_census_families_in_privatehousehold,Category,Common-law without children
+86,  Total one-parent families,2,No Keep,total_number_of_census_families_in_privatehousehold,Category,Total one-parent families
+87,    in which the parent is a woman+,4,Keep,total_number_of_census_families_in_privatehousehold,Category,in which the parent is a woman+
+88,    in which the parent is a man+,4,Keep,total_number_of_census_families_in_privatehousehold,Category,in which the parent is a man+
+89,Total - Persons in private households - 100% data,0,Keep,persons_in_private_households,Total,Total - Persons in private households - 100% data
+90,  Total - Persons in census families,2,No Keep,persons_in_private_households,Category,Total - Persons in census families
+91,    Married spouses or common-law partners,4,Keep,persons_in_private_households,Category,Married spouses or common-law partners
+92,    Parents in one-parent families,4,Keep,persons_in_private_households,Category,Parents in one-parent families
+93,    Children,4,No Keep,persons_in_private_households,Category,Children
+94,      In a two-parent family,6,Keep,persons_in_private_households,Category,In a two-parent family
+95,      In a one-parent family,6,Keep,persons_in_private_households,Category,In a one-parent family
+96,  Total - Persons not in census families in private households - 100% data,2,No Keep,persons_in_private_households,Category,Total - Persons not in census families in private households - 100% data
+97,    Living alone,4,Keep,persons_in_private_households,Category,Living alone
+98,    Living with other relatives,4,Keep,persons_in_private_households,Category,Living with other relatives
+99,    Living with non-relatives only,4,Keep,persons_in_private_households,Category,Living with non-relatives only
+100,Total - Household type - 100% data,0,Keep,household_type,Total,Total - Household type - 100% data
+101,  One-census-family households without additional persons,2,No Keep,household_type,Category,One-census-family households without additional persons
+102,    Couple-family households,4,No Keep,household_type,Category,Couple-family households
+103,      With children,6,Keep,household_type,Category,With children
+104,      Without children,6,Keep,household_type,Category,Without children
+105,    One-parent-family households,4,Keep,household_type,Category,One-parent-family households
+106,  Multigenerational households,2,Keep,household_type,Category,Multigenerational households
+107,  Multiple-census-family households,2,Keep,household_type,Category,Multiple-census-family households
+108,  One-census-family households with additional persons,2,Keep,household_type,Category,One-census-family households with additional persons
+109,  Two-or-more-person non-census-family households ,2,Keep,household_type,Category,Two-or-more-person non-census-family households
+110,  One-person households,2,Keep,household_type,Category,One-person households
+111,Total - Income statistics in 2020 for the population aged 15 years and over in private households - 100% data,0,Keep,summary,Summary,Total - Income statistics in 2020 for the population aged 15 years and over in private households - 100% data
+112,  Number of total income recipients aged 15 years and over in private households in 2020 - 100% data,2,No Keep,summary,Summary,Number of total income recipients aged 15 years and over in private households in 2020 - 100% data
+113,    Median total income in 2020 among recipients ($),4,Keep,summary,Summary,Median total income in 2020 among recipients ($)
+114,  Number of after-tax income recipients aged 15 years and over in private households in 2020 - 100% data,2,No Keep,summary,Summary,Number of after-tax income recipients aged 15 years and over in private households in 2020 - 100% data
+115,    Median after-tax income in 2020 among recipients ($),4,Keep,summary,Summary,Median after-tax income in 2020 among recipients ($)
+116,  Number of market income recipients aged 15 years and over in private households in 2020 - 100% data,2,No Keep,summary,Summary,Number of market income recipients aged 15 years and over in private households in 2020 - 100% data
+117,    Median market income in 2020 among recipients ($),4,Keep,summary,Summary,Median market income in 2020 among recipients ($)
+118,  Number of employment income recipients aged 15 years and over in private households in 2020 - 100% data,2,No Keep,summary,Summary,Number of employment income recipients aged 15 years and over in private households in 2020 - 100% data
+119,    Median employment income in 2020 among recipients ($),4,Keep,summary,Summary,Median employment income in 2020 among recipients ($)
+120,  Number of government transfers recipients aged 15 years and over in private households in 2020 - 100% data,2,No Keep,summary,Summary,Number of government transfers recipients aged 15 years and over in private households in 2020 - 100% data
+121,    Median government transfers in 2020 among recipients ($),4,Keep,summary,Summary,Median government transfers in 2020 among recipients ($)
+122,  Number of employment insurance benefits recipients aged 15 years and over in private households in 2020 - 100% data,2,No Keep,summary,Summary,Number of employment insurance benefits recipients aged 15 years and over in private households in 2020 - 100% data
+123,    Median employment insurance benefits in 2020 among recipients ($),4,Keep,summary,Summary,Median employment insurance benefits in 2020 among recipients ($)
+124,  Number of COVID-19 emergency and recovery benefits recipients aged 15 years and over in private households in 2020 - 100% data,2,No Keep,summary,Summary,Number of COVID-19 emergency and recovery benefits recipients aged 15 years and over in private households in 2020 - 100% data
+125,    Median COVID-19 emergency and recovery benefits in 2020 among recipients ($),4,Keep,summary,Summary,Median COVID-19 emergency and recovery benefits in 2020 among recipients ($)
+126,Total - Income statistics in 2020 for the population aged 15 years and over in private households - 25% sample data,0,Keep,remove,Category,Total - Income statistics in 2020 for the population aged 15 years and over in private households - 25% sample data
+127,  Number of total income recipients aged 15 years and over in private households in 2020 - 25% sample data,2,No Keep,remove,Category,Number of total income recipients aged 15 years and over in private households in 2020 - 25% sample data
+128,    Average total income in 2020 among recipients ($),4,Keep,remove,Category,Average total income in 2020 among recipients ($)
+129,  Number of after-tax income recipients aged 15 years and over in private households in 2020 - 25% sample data,2,No Keep,remove,Category,Number of after-tax income recipients aged 15 years and over in private households in 2020 - 25% sample data
+130,    Average after-tax income in 2020 among recipients ($),4,Keep,remove,Category,Average after-tax income in 2020 among recipients ($)
+131,  Number of market income recipients aged 15 years and over in private households in 2020 - 25% sample data,2,No Keep,remove,Category,Number of market income recipients aged 15 years and over in private households in 2020 - 25% sample data
+132,    Average market income in 2020 among recipients ($),4,Keep,remove,Category,Average market income in 2020 among recipients ($)
+133,  Number of employment income recipients aged 15 years and over in private households in 2020 - 25% sample data,2,No Keep,remove,Category,Number of employment income recipients aged 15 years and over in private households in 2020 - 25% sample data
+134,    Average employment income in 2020 among recipients ($),4,Keep,remove,Category,Average employment income in 2020 among recipients ($)
+135,  Number of government transfers recipients aged 15 years and over in private households in 2020 - 25% sample data,2,No Keep,remove,Category,Number of government transfers recipients aged 15 years and over in private households in 2020 - 25% sample data
+136,    Average government transfers in 2020 among recipients ($),4,Keep,remove,Category,Average government transfers in 2020 among recipients ($)
+137,  Number of employment insurance benefits recipients aged 15 years and over in private households in 2020 - 25% sample data,2,No Keep,remove,Category,Number of employment insurance benefits recipients aged 15 years and over in private households in 2020 - 25% sample data
+138,    Average employment insurance benefits in 2020 among recipients ($),4,Keep,remove,Category,Average employment insurance benefits in 2020 among recipients ($)
+139,  Number of COVID-19 emergency and recovery benefits recipients aged 15 years and over in private households in 2020 - 25% sample data,2,No Keep,remove,Category,Number of COVID-19 emergency and recovery benefits recipients aged 15 years and over in private households in 2020 - 25% sample data
+140,    Average COVID-19 emergency and recovery benefits in 2020 among recipients ($),4,Keep,remove,Category,Average COVID-19 emergency and recovery benefits in 2020 among recipients ($)
+141,Composition of total income in 2020 of the population aged 15 years and over in private households (%) - 25% sample data,0,Keep,remove,Category,Composition of total income in 2020 of the population aged 15 years and over in private households (%) - 25% sample data
+142,  Market income (%),2,No Keep,remove,Category,Market income (%)
+143,    Employment income (%),4,Keep,remove,Category,Employment income (%)
+144,  Government transfers (%),2,No Keep,remove,Category,Government transfers (%)
+145,    Employment insurance benefits (%),4,Keep,remove,Category,Employment insurance benefits (%)
+146,    COVID-19 - Government income support and benefits (%),4,No Keep,remove,Category,COVID-19 - Government income support and benefits (%)
+147,      COVID-19 - Emergency and recovery benefits (%),6,Keep,remove,Category,COVID-19 - Emergency and recovery benefits (%)
+148,Total - Total income groups in 2020 for the population aged 15 years and over in private households - 100% data,0,Keep,total_income_groups_in_2020_for_the_population_aged_15_years_and_over_in_private_households,Total,Total - Total income groups in 2020 for the population aged 15 years and over in private households - 100% data
+149,  Without total income,2,Keep,total_income_groups_in_2020_for_the_population_aged_15_years_and_over_in_private_households,Category,Without total income
+150,  With total income,2,No Keep,total_income_groups_in_2020_for_the_population_aged_15_years_and_over_in_private_households,Category,With total income
+151,"    Under $10,000 (including loss)",4,Keep,total_income_groups_in_2020_for_the_population_aged_15_years_and_over_in_private_households,Category,"Under $10,000 (including loss)"
+152,"    $10,000 to $19,999",4,Keep,total_income_groups_in_2020_for_the_population_aged_15_years_and_over_in_private_households,Category,"$10,000 to $19,999"
+153,"    $20,000 to $29,999",4,Keep,total_income_groups_in_2020_for_the_population_aged_15_years_and_over_in_private_households,Category,"$20,000 to $29,999"
+154,"    $30,000 to $39,999",4,Keep,total_income_groups_in_2020_for_the_population_aged_15_years_and_over_in_private_households,Category,"$30,000 to $39,999"
+155,"    $40,000 to $49,999",4,Keep,total_income_groups_in_2020_for_the_population_aged_15_years_and_over_in_private_households,Category,"$40,000 to $49,999"
+156,"    $50,000 to $59,999",4,Keep,total_income_groups_in_2020_for_the_population_aged_15_years_and_over_in_private_households,Category,"$50,000 to $59,999"
+157,"    $60,000 to $69,999",4,Keep,total_income_groups_in_2020_for_the_population_aged_15_years_and_over_in_private_households,Category,"$60,000 to $69,999"
+158,"    $70,000 to $79,999",4,Keep,total_income_groups_in_2020_for_the_population_aged_15_years_and_over_in_private_households,Category,"$70,000 to $79,999"
+159,"    $80,000 to $89,999",4,Keep,total_income_groups_in_2020_for_the_population_aged_15_years_and_over_in_private_households,Category,"$80,000 to $89,999"
+160,"    $90,000 to $99,999",4,Keep,total_income_groups_in_2020_for_the_population_aged_15_years_and_over_in_private_households,Category,"$90,000 to $99,999"
+161,"    $100,000 and over",4,No Keep,total_income_groups_in_2020_for_the_population_aged_15_years_and_over_in_private_households,Category,"$100,000 and over"
+162,"      $100,000 to $149,999",6,Keep,total_income_groups_in_2020_for_the_population_aged_15_years_and_over_in_private_households,Category,"$100,000 to $149,999"
+163,"      $150,000 and over",6,Keep,total_income_groups_in_2020_for_the_population_aged_15_years_and_over_in_private_households,Category,"$150,000 and over"
+164,Total - After-tax income groups in 2020 for the population aged 15 years and over in private households - 100% data,0,Keep,after-tax_income_groups_in_2020_for_the_population_aged_15_years_and_over_in_private_households_,Total,Total - After-tax income groups in 2020 for the population aged 15 years and over in private households - 100% data
+165,  Without after-tax income,2,Keep,after-tax_income_groups_in_2020_for_the_population_aged_15_years_and_over_in_private_households_,Category,Without after-tax income
+166,  With after-tax income,2,No Keep,after-tax_income_groups_in_2020_for_the_population_aged_15_years_and_over_in_private_households_,Category,With after-tax income
+167,"    Under $10,000 (including loss)",4,Keep,after-tax_income_groups_in_2020_for_the_population_aged_15_years_and_over_in_private_households_,Category,"Under $10,000 (including loss)"
+168,"    $10,000 to $19,999",4,Keep,after-tax_income_groups_in_2020_for_the_population_aged_15_years_and_over_in_private_households_,Category,"$10,000 to $19,999"
+169,"    $20,000 to $29,999",4,Keep,after-tax_income_groups_in_2020_for_the_population_aged_15_years_and_over_in_private_households_,Category,"$20,000 to $29,999"
+170,"    $30,000 to $39,999",4,Keep,after-tax_income_groups_in_2020_for_the_population_aged_15_years_and_over_in_private_households_,Category,"$30,000 to $39,999"
+171,"    $40,000 to $49,999",4,Keep,after-tax_income_groups_in_2020_for_the_population_aged_15_years_and_over_in_private_households_,Category,"$40,000 to $49,999"
+172,"    $50,000 to $59,999",4,Keep,after-tax_income_groups_in_2020_for_the_population_aged_15_years_and_over_in_private_households_,Category,"$50,000 to $59,999"
+173,"    $60,000 to $69,999",4,Keep,after-tax_income_groups_in_2020_for_the_population_aged_15_years_and_over_in_private_households_,Category,"$60,000 to $69,999"
+174,"    $70,000 to $79,999",4,Keep,after-tax_income_groups_in_2020_for_the_population_aged_15_years_and_over_in_private_households_,Category,"$70,000 to $79,999"
+175,"    $80,000 to $89,999",4,Keep,after-tax_income_groups_in_2020_for_the_population_aged_15_years_and_over_in_private_households_,Category,"$80,000 to $89,999"
+176,"    $90,000 to $99,999",4,Keep,after-tax_income_groups_in_2020_for_the_population_aged_15_years_and_over_in_private_households_,Category,"$90,000 to $99,999"
+177,"    $100,000 and over",4,No Keep,after-tax_income_groups_in_2020_for_the_population_aged_15_years_and_over_in_private_households_,Category,"$100,000 and over"
+178,"      $100,000 to $124,999",6,Keep,after-tax_income_groups_in_2020_for_the_population_aged_15_years_and_over_in_private_households_,Category,"$100,000 to $124,999"
+179,"      $125,000 and over",6,Keep,after-tax_income_groups_in_2020_for_the_population_aged_15_years_and_over_in_private_households_,Category,"$125,000 and over"
+180,Total - Employment income groups in 2020 for the population aged 15 years and over in private households - 100% data,0,Keep,employment_income_groups_in_2020_for_the_population_aged_15_years_and_over_in_private_households,Total,Total - Employment income groups in 2020 for the population aged 15 years and over in private households - 100% data
+181,  Without employment income,2,Keep,employment_income_groups_in_2020_for_the_population_aged_15_years_and_over_in_private_households,Category,Without employment income
+182,  With employment income,2,No Keep,employment_income_groups_in_2020_for_the_population_aged_15_years_and_over_in_private_households,Category,With employment income
+183,"    Under $5,000 (including loss)",4,Keep,employment_income_groups_in_2020_for_the_population_aged_15_years_and_over_in_private_households,Category,"Under $5,000 (including loss)"
+184,"    $5,000 to $9,999",4,Keep,employment_income_groups_in_2020_for_the_population_aged_15_years_and_over_in_private_households,Category,"$5,000 to $9,999"
+185,"    $10,000 to $19,999",4,Keep,employment_income_groups_in_2020_for_the_population_aged_15_years_and_over_in_private_households,Category,"$10,000 to $19,999"
+186,"    $20,000 to $29,999",4,Keep,employment_income_groups_in_2020_for_the_population_aged_15_years_and_over_in_private_households,Category,"$20,000 to $29,999"
+187,"    $30,000 to $39,999",4,Keep,employment_income_groups_in_2020_for_the_population_aged_15_years_and_over_in_private_households,Category,"$30,000 to $39,999"
+188,"    $40,000 to $49,999",4,Keep,employment_income_groups_in_2020_for_the_population_aged_15_years_and_over_in_private_households,Category,"$40,000 to $49,999"
+189,"    $50,000 to $59,999",4,Keep,employment_income_groups_in_2020_for_the_population_aged_15_years_and_over_in_private_households,Category,"$50,000 to $59,999"
+190,"    $60,000 to $69,999",4,Keep,employment_income_groups_in_2020_for_the_population_aged_15_years_and_over_in_private_households,Category,"$60,000 to $69,999"
+191,"    $70,000 to $79,999",4,Keep,employment_income_groups_in_2020_for_the_population_aged_15_years_and_over_in_private_households,Category,"$70,000 to $79,999"
+192,"    $80,000 to $89,999",4,Keep,employment_income_groups_in_2020_for_the_population_aged_15_years_and_over_in_private_households,Category,"$80,000 to $89,999"
+193,"    $90,000 to $99,999",4,Keep,employment_income_groups_in_2020_for_the_population_aged_15_years_and_over_in_private_households,Category,"$90,000 to $99,999"
+194,"    $100,000 and over",4,No Keep,employment_income_groups_in_2020_for_the_population_aged_15_years_and_over_in_private_households,Category,"$100,000 and over"
+195,"      $100,000 to $124,999",6,Keep,employment_income_groups_in_2020_for_the_population_aged_15_years_and_over_in_private_households,Category,"$100,000 to $124,999"
+196,"      $125,000 and over",6,Keep,employment_income_groups_in_2020_for_the_population_aged_15_years_and_over_in_private_households,Category,"$125,000 and over"
+197,Total - Income statistics in 2019 for the population aged 15 years and over in private households - 100% data,0,Keep,summary,summary,Total - Income statistics in 2019 for the population aged 15 years and over in private households - 100% data
+198,  Number of total income recipients aged 15 years and over in private households in 2019 - 100% data,2,No Keep,summary,summary,Number of total income recipients aged 15 years and over in private households in 2019 - 100% data
+199,    Median total income in 2019 among recipients ($),4,Keep,summary,summary,Median total income in 2019 among recipients ($)
+200,  Number of after-tax income recipients aged 15 years and over in private households in 2019 - 100% data,2,No Keep,summary,summary,Number of after-tax income recipients aged 15 years and over in private households in 2019 - 100% data
+201,    Median after-tax income in 2019 among recipients ($),4,Keep,summary,summary,Median after-tax income in 2019 among recipients ($)
+202,  Number of market income recipients aged 15 years and over in private households in 2019 - 100% data,2,No Keep,summary,summary,Number of market income recipients aged 15 years and over in private households in 2019 - 100% data
+203,    Median market income in 2019 among recipients ($),4,Keep,summary,summary,Median market income in 2019 among recipients ($)
+204,  Number of employment income recipients aged 15 years and over in private households in 2019 - 100% data,2,No Keep,summary,summary,Number of employment income recipients aged 15 years and over in private households in 2019 - 100% data
+205,    Median employment income in 2019 among recipients ($),4,Keep,summary,summary,Median employment income in 2019 among recipients ($)
+206,  Number of government transfers recipients aged 15 years and over in private households in 2019 - 100% data,2,No Keep,summary,summary,Number of government transfers recipients aged 15 years and over in private households in 2019 - 100% data
+207,    Median government transfers in 2019 among recipients ($),4,Keep,summary,summary,Median government transfers in 2019 among recipients ($)
+208,  Number of employment insurance benefits recipients aged 15 years and over in private households in 2019 -100% data,2,No Keep,summary,summary,Number of employment insurance benefits recipients aged 15 years and over in private households in 2019 -100% data
+209,    Median employment insurance benefits in 2019 among recipients ($),4,Keep,summary,summary,Median employment insurance benefits in 2019 among recipients ($)
+210,Total - Income statistics in 2019 for the population aged 15 years and over in private households - 25% sample data,0,Keep,remove,Category,Total - Income statistics in 2019 for the population aged 15 years and over in private households - 25% sample data
+211,  Number of total income recipients aged 15 years and over in private households in 2019 - 25% sample data,2,No Keep,remove,Category,Number of total income recipients aged 15 years and over in private households in 2019 - 25% sample data
+212,    Average total income in 2019 among recipients ($),4,Keep,remove,Category,Average total income in 2019 among recipients ($)
+213,  Number of after-tax income recipients aged 15 years and over in private households in 2019 - 25% sample data,2,No Keep,remove,Category,Number of after-tax income recipients aged 15 years and over in private households in 2019 - 25% sample data
+214,    Average after-tax income in 2019 among recipients ($),4,Keep,remove,Category,Average after-tax income in 2019 among recipients ($)
+215,  Number of market income recipients aged 15 years and over in private households in 2019 - 25% sample data,2,No Keep,remove,Category,Number of market income recipients aged 15 years and over in private households in 2019 - 25% sample data
+216,    Average market income in 2019 among recipients ($),4,Keep,remove,Category,Average market income in 2019 among recipients ($)
+217,  Number of employment income recipients aged 15 years and over in private households in 2019 - 25% sample data,2,No Keep,remove,Category,Number of employment income recipients aged 15 years and over in private households in 2019 - 25% sample data
+218,    Average employment income in 2019 among recipients ($),4,Keep,remove,Category,Average employment income in 2019 among recipients ($)
+219,  Number of government transfers recipients aged 15 years and over in private households in 2019 - 25% sample data,2,No Keep,remove,Category,Number of government transfers recipients aged 15 years and over in private households in 2019 - 25% sample data
+220,    Average government transfers in 2019 among recipients ($),4,Keep,remove,Category,Average government transfers in 2019 among recipients ($)
+221,  Number of employment insurance benefits recipients aged 15 years and over in private households in 2019 - 25% sample data,2,No Keep,remove,Category,Number of employment insurance benefits recipients aged 15 years and over in private households in 2019 - 25% sample data
+222,    Average employment insurance benefits in 2019 among recipients ($),4,Keep,remove,Category,Average employment insurance benefits in 2019 among recipients ($)
+223,Composition of total income in 2019 of the population aged 15 years and over in private households (%) - 25% sample data,0,Keep,remove,Category,Composition of total income in 2019 of the population aged 15 years and over in private households (%) - 25% sample data
+224,  Market income (%),2,No Keep,remove,Category,Market income (%)
+225,    Employment income (%),4,Keep,remove,Category,Employment income (%)
+226,  Government transfers (%),2,No Keep,remove,Category,Government transfers (%)
+227,    Employment insurance benefits (%),4,Keep,remove,Category,Employment insurance benefits (%)
+228,Total - Income statistics for private households - 100% data,0,Keep,summary,Summary,Total - Income statistics for private households - 100% data
+229,  Median total income of household in 2020 ($),2,Keep,summary,Summary,Median total income of household in 2020 ($)
+230,  Median after-tax income of household in 2020 ($),2,No Keep,summary,Summary,Median after-tax income of household in 2020 ($)
+231,    Total - Income statistics for one-person private households - 100% data,4,No Keep,summary,Summary,Total - Income statistics for one-person private households - 100% data
+232,      Median total income of one-person households in 2020 ($),6,Keep,summary,Summary,Median total income of one-person households in 2020 ($)
+233,      Median after-tax income of one-person households in 2020 ($),6,Keep,summary,Summary,Median after-tax income of one-person households in 2020 ($)
+234,    Total - Income statistics for two-or-more-persons private households - 100% data,4,No Keep,summary,Summary,Total - Income statistics for two-or-more-persons private households - 100% data
+235,      Median total income of two-or-more-person households in 2020 ($),6,Keep,summary,Summary,Median total income of two-or-more-person households in 2020 ($)
+236,      Median after-tax income of two-or-more-person households in 2020 ($),6,Keep,summary,Summary,Median after-tax income of two-or-more-person households in 2020 ($)
+237,Total - Income statistics for private households - 25% sample data,0,Keep,remove,Category,Total - Income statistics for private households - 25% sample data
+238,  Average total income of household in 2020 ($),2,Keep,remove,Category,Average total income of household in 2020 ($)
+239,  Average after-tax income of household in 2020 ($),2,No Keep,remove,Category,Average after-tax income of household in 2020 ($)
+240,    Total - Income statistics for one-person private households - 25% sample data,4,No Keep,remove,Category,Total - Income statistics for one-person private households - 25% sample data
+241,      Average total income of one-person households in 2020 ($),6,Keep,remove,Category,Average total income of one-person households in 2020 ($)
+242,      Average after-tax income of one-person households in 2020 ($),6,Keep,remove,Category,Average after-tax income of one-person households in 2020 ($)
+243,    Total - Income statistics for two-or-more-persons private households - 25% sample data,4,No Keep,remove,Category,Total - Income statistics for two-or-more-persons private households - 25% sample data
+244,      Average total income of two-or-more-person households in 2020 ($),6,Keep,remove,Category,Average total income of two-or-more-person households in 2020 ($)
+245,      Average after-tax income of two-or-more-person households in 2020 ($),6,Keep,remove,Category,Average after-tax income of two-or-more-person households in 2020 ($)
+246,Total - Household total income groups in 2020 for private households - 100% data,0,Keep,household_total_income_groups_in_2020_for_private_households,Total,Total - Household total income groups in 2020 for private households - 100% data
+247,"  Under $5,000",2,Keep,household_total_income_groups_in_2020_for_private_households,Category,"Under $5,000"
+248,"  $5,000 to $9,999",2,Keep,household_total_income_groups_in_2020_for_private_households,Category,"$5,000 to $9,999"
+249,"  $10,000 to $14,999",2,Keep,household_total_income_groups_in_2020_for_private_households,Category,"$10,000 to $14,999"
+250,"  $15,000 to $19,999",2,Keep,household_total_income_groups_in_2020_for_private_households,Category,"$15,000 to $19,999"
+251,"  $20,000 to $24,999",2,Keep,household_total_income_groups_in_2020_for_private_households,Category,"$20,000 to $24,999"
+252,"  $25,000 to $29,999",2,Keep,household_total_income_groups_in_2020_for_private_households,Category,"$25,000 to $29,999"
+253,"  $30,000 to $34,999",2,Keep,household_total_income_groups_in_2020_for_private_households,Category,"$30,000 to $34,999"
+254,"  $35,000 to $39,999",2,Keep,household_total_income_groups_in_2020_for_private_households,Category,"$35,000 to $39,999"
+255,"  $40,000 to $44,999",2,Keep,household_total_income_groups_in_2020_for_private_households,Category,"$40,000 to $44,999"
+256,"  $45,000 to $49,999",2,Keep,household_total_income_groups_in_2020_for_private_households,Category,"$45,000 to $49,999"
+257,"  $50,000 to $59,999",2,Keep,household_total_income_groups_in_2020_for_private_households,Category,"$50,000 to $59,999"
+258,"  $60,000 to $69,999",2,Keep,household_total_income_groups_in_2020_for_private_households,Category,"$60,000 to $69,999"
+259,"  $70,000 to $79,999",2,Keep,household_total_income_groups_in_2020_for_private_households,Category,"$70,000 to $79,999"
+260,"  $80,000 to $89,999",2,Keep,household_total_income_groups_in_2020_for_private_households,Category,"$80,000 to $89,999"
+261,"  $90,000 to $99,999",2,Keep,household_total_income_groups_in_2020_for_private_households,Category,"$90,000 to $99,999"
+262,"  $100,000 and over",2,No Keep,household_total_income_groups_in_2020_for_private_households,Category,"$100,000 and over"
+263,"    $100,000 to $124,999",4,Keep,household_total_income_groups_in_2020_for_private_households,Category,"$100,000 to $124,999"
+264,"    $125,000 to $149,999",4,Keep,household_total_income_groups_in_2020_for_private_households,Category,"$125,000 to $149,999"
+265,"    $150,000 to $199,999",4,Keep,household_total_income_groups_in_2020_for_private_households,Category,"$150,000 to $199,999"
+266,"    $200,000 and over",4,Keep,household_total_income_groups_in_2020_for_private_households,Category,"$200,000 and over"
+267,Total - Household after-tax income groups in 2020 for private households - 100% data,0,Keep,household_after-tax_income_groups_in_2020_for_private_households,Total,Total - Household after-tax income groups in 2020 for private households - 100% data
+268,"  Under $5,000",2,Keep,household_after-tax_income_groups_in_2020_for_private_households,Category,"Under $5,000"
+269,"  $5,000 to $9,999",2,Keep,household_after-tax_income_groups_in_2020_for_private_households,Category,"$5,000 to $9,999"
+270,"  $10,000 to $14,999",2,Keep,household_after-tax_income_groups_in_2020_for_private_households,Category,"$10,000 to $14,999"
+271,"  $15,000 to $19,999",2,Keep,household_after-tax_income_groups_in_2020_for_private_households,Category,"$15,000 to $19,999"
+272,"  $20,000 to $24,999",2,Keep,household_after-tax_income_groups_in_2020_for_private_households,Category,"$20,000 to $24,999"
+273,"  $25,000 to $29,999",2,Keep,household_after-tax_income_groups_in_2020_for_private_households,Category,"$25,000 to $29,999"
+274,"  $30,000 to $34,999",2,Keep,household_after-tax_income_groups_in_2020_for_private_households,Category,"$30,000 to $34,999"
+275,"  $35,000 to $39,999",2,Keep,household_after-tax_income_groups_in_2020_for_private_households,Category,"$35,000 to $39,999"
+276,"  $40,000 to $44,999",2,Keep,household_after-tax_income_groups_in_2020_for_private_households,Category,"$40,000 to $44,999"
+277,"  $45,000 to $49,999",2,Keep,household_after-tax_income_groups_in_2020_for_private_households,Category,"$45,000 to $49,999"
+278,"  $50,000 to $59,999",2,Keep,household_after-tax_income_groups_in_2020_for_private_households,Category,"$50,000 to $59,999"
+279,"  $60,000 to $69,999",2,Keep,household_after-tax_income_groups_in_2020_for_private_households,Category,"$60,000 to $69,999"
+280,"  $70,000 to $79,999",2,Keep,household_after-tax_income_groups_in_2020_for_private_households,Category,"$70,000 to $79,999"
+281,"  $80,000 to $89,999",2,Keep,household_after-tax_income_groups_in_2020_for_private_households,Category,"$80,000 to $89,999"
+282,"  $90,000 to $99,999",2,Keep,household_after-tax_income_groups_in_2020_for_private_households,Category,"$90,000 to $99,999"
+283,"  $100,000 and over",2,No Keep,household_after-tax_income_groups_in_2020_for_private_households,Category,"$100,000 and over"
+284,"    $100,000 to $124,999",4,Keep,household_after-tax_income_groups_in_2020_for_private_households,Category,"$100,000 to $124,999"
+285,"    $125,000 to $149,999",4,Keep,household_after-tax_income_groups_in_2020_for_private_households,Category,"$125,000 to $149,999"
+286,"    $150,000 and over",4,Keep,household_after-tax_income_groups_in_2020_for_private_households,Category,"$150,000 and over"
+287,Total - Income statistics for economic families in private households - 100% data,0,Keep,summary,Summary,Total - Income statistics for economic families in private households - 100% data
+288,  Median total income of economic family in 2020 ($),2,Keep,summary,Summary,Median total income of economic family in 2020 ($)
+289,  Median after-tax income of economic family in 2020 ($),2,Keep,summary,Summary,Median after-tax income of economic family in 2020 ($)
+290,  Average family size of economic families,2,Keep,summary,Summary,Average family size of economic families
+291,Total - Income statistics for couple-only economic families in private households - 100% data,0,Keep,summary,Summary,Total - Income statistics for couple-only economic families in private households - 100% data
+292,  Median total income of couple-only economic families in 2020 ($),2,Keep,summary,Summary,Median total income of couple-only economic families in 2020 ($)
+293,  Median after-tax income of couple-only economic families in 2020 ($),2,Keep,summary,Summary,Median after-tax income of couple-only economic families in 2020 ($)
+294,  Average family size of couple-only economic families,2,Keep,summary,Summary,Average family size of couple-only economic families
+295,Total - Income statistics for couple-with-children economic families in private households - 100% data,0,Keep,summary,Summary,Total - Income statistics for couple-with-children economic families in private households - 100% data
+296,  Median total income of couple-with-children economic families  in 2020 ($),2,Keep,summary,Summary,Median total income of couple-with-children economic families in 2020 ($)
+297,  Median after-tax income of couple-with-children economic families in 2020 ($),2,Keep,summary,Summary,Median after-tax income of couple-with-children economic families in 2020 ($)
+298,  Average family size of couple-with-children economic families,2,Keep,summary,Summary,Average family size of couple-with-children economic families
+299,Total - Income statistics for one-parent economic families in private households - 100% data,0,Keep,summary,Summary,Total - Income statistics for one-parent economic families in private households - 100% data
+300,  Median total income of one-parent economic families in 2020 ($),2,Keep,summary,Summary,Median total income of one-parent economic families in 2020 ($)
+301,  Median after-tax income of one-parent economic families in 2020 ($),2,Keep,summary,Summary,Median after-tax income of one-parent economic families in 2020 ($)
+302,  Average family size of one-parent economic families,2,Keep,summary,Summary,Average family size of one-parent economic families
+303,Total - Income statistics for persons aged 15 years and over not in economic families in private households - 100% data,0,Keep,summary,Summary,Total - Income statistics for persons aged 15 years and over not in economic families in private households - 100% data
+304,  Median total income in 2020 ($),2,Keep,summary,Summary,Median total income in 2020 ($)
+305,  Median after-tax income in 2020 ($),2,Keep,summary,Summary,Median after-tax income in 2020 ($)
+306,Total - Income statistics for economic families in private households - 25% sample data,0,Keep,remove,Category,Total - Income statistics for economic families in private households - 25% sample data
+307,  Average total income of economic family in 2020 ($),2,Keep,remove,Category,Average total income of economic family in 2020 ($)
+308,  Average after-tax income of economic family in 2020 ($),2,Keep,remove,Category,Average after-tax income of economic family in 2020 ($)
+309,Total - Income statistics for couple-only economic families in private households - 25% sample data,0,Keep,remove,Category,Total - Income statistics for couple-only economic families in private households - 25% sample data
+310,  Average total income of couple-only economic families in 2020 ($),2,Keep,remove,Category,Average total income of couple-only economic families in 2020 ($)
+311,  Average after-tax income of couple-only economic families in 2020 ($),2,Keep,remove,Category,Average after-tax income of couple-only economic families in 2020 ($)
+312,Total - Income statistics for couple-with-children economic families in private households - 25% sample data,0,Keep,remove,Category,Total - Income statistics for couple-with-children economic families in private households - 25% sample data
+313,  Average total income of couple-with-children economic families in 2020 ($),2,Keep,remove,Category,Average total income of couple-with-children economic families in 2020 ($)
+314,  Average after-tax income of couple-with-children economic families in 2020 ($),2,Keep,remove,Category,Average after-tax income of couple-with-children economic families in 2020 ($)
+315,Total - Income statistics for one-parent economic families in private households - 25% sample data,0,Keep,remove,Category,Total - Income statistics for one-parent economic families in private households - 25% sample data
+316,  Average total income of one-parent economic families in 2020 ($),2,Keep,remove,Category,Average total income of one-parent economic families in 2020 ($)
+317,  Average after-tax income of one-parent economic families in 2020 ($),2,Keep,remove,Category,Average after-tax income of one-parent economic families in 2020 ($)
+318,Total - Income statistics for persons aged 15 years and over not in economic families in private households - 25% sample data,0,Keep,remove,Category,Total - Income statistics for persons aged 15 years and over not in economic families in private households - 25% sample data
+319,  Average total income in 2020 ($),2,Keep,remove,Category,Average total income in 2020 ($)
+320,  Average after-tax income in 2020 ($),2,Keep,remove,Category,Average after-tax income in 2020 ($)
+321,Total - LIM low-income status in 2020 for the population in private households - 100% data,0,Keep,lim_low-income_status_in_2020_for_the_population_in_private_households,Total,Total - LIM low-income status in 2020 for the population in private households - 100% data
+322,  0 to 17 years,2,Keep,lim_low-income_status_in_2020_for_the_population_in_private_households,Category,0 to 17 years
+323,    0 to 5 years,4,No Keep,lim_low-income_status_in_2020_for_the_population_in_private_households,Category,0 to 5 years
+324,  18 to 64 years,2,Keep,lim_low-income_status_in_2020_for_the_population_in_private_households,Category,18 to 64 years
+325,  65 years and over,2,Keep,lim_low-income_status_in_2020_for_the_population_in_private_households,Category,65 years and over
+326,"In low income based on the Low-income measure, after tax (LIM-AT)",0,Keep,in_low_income_based_on_the_low-income_measure_after_tax,Total,"In low income based on the Low-income measure, after tax (LIM-AT)"
+327,  0 to 17 years,2,Keep,in_low_income_based_on_the_low-income_measure_after_tax,Category,0 to 17 years
+328,    0 to 5 years,4,No Keep,in_low_income_based_on_the_low-income_measure_after_tax,Category,0 to 5 years
+329,  18 to 64 years,2,Keep,in_low_income_based_on_the_low-income_measure_after_tax,Category,18 to 64 years
+330,  65 years and over,2,Keep,in_low_income_based_on_the_low-income_measure_after_tax,Category,65 years and over
+331,"Prevalence of low income based on the Low-income measure, after tax (LIM-AT) (%)",0,Keep,summary,Summary,"Prevalence of low income based on the Low-income measure, after tax (LIM-AT) (%)"
+332,  0 to 17 years (%),2,No Keep,summary,Summary,"0 to 17 years (%) Prevalence of low income based on the Low-income measure, after tax (LIM-AT) (%)"
+333,    0 to 5 years (%),4,Keep,summary,Summary,"0 to 5 years (%) - Prevalence of low income based on the Low-income measure, after tax (LIM-AT) (%)"
+334,  18 to 64 years (%),2,Keep,summary,Summary,"18 to 64 years (%) - Prevalence of low income based on the Low-income measure, after tax (LIM-AT) (%)"
+335,  65 years and over (%),2,Keep,summary,Summary,"65 years and over (%) - Prevalence of low income based on the Low-income measure, after tax (LIM-AT) (%)"
+336,Total - LICO low-income status in 2020 for the population in private households to whom the low-income concept is applicable - 100% data,0,Keep,lico_low-income_status_in_2020_for_the_population_in_private_households_to_whom_the_low-income_concept_is_applicable,Total,Total - LICO low-income status in 2020 for the population in private households to whom the low-income concept is applicable - 100% data
+337,  0 to 17 years,2,Keep,lico_low-income_status_in_2020_for_the_population_in_private_households_to_whom_the_low-income_concept_is_applicable,Category,0 to 17 years
+338,    0 to 5 years,4,No Keep,lico_low-income_status_in_2020_for_the_population_in_private_households_to_whom_the_low-income_concept_is_applicable,Category,0 to 5 years
+339,  18 to 64 years,2,Keep,lico_low-income_status_in_2020_for_the_population_in_private_households_to_whom_the_low-income_concept_is_applicable,Category,18 to 64 years
+340,  65 years and over,2,Keep,lico_low-income_status_in_2020_for_the_population_in_private_households_to_whom_the_low-income_concept_is_applicable,Category,65 years and over
+341,"In low income based on the Low-income cut-offs, after tax (LICO-AT)",0,Keep,in_low_income_based_on_the_low-income_cut-offs_after_tax,Total,"In low income based on the Low-income cut-offs, after tax (LICO-AT)"
+342,  0 to 17 years,2,Keep,in_low_income_based_on_the_low-income_cut-offs_after_tax,Category,0 to 17 years
+343,    0 to 5 years,4,No Keep,in_low_income_based_on_the_low-income_cut-offs_after_tax,Category,0 to 5 years
+344,  18 to 64 years,2,Keep,in_low_income_based_on_the_low-income_cut-offs_after_tax,Category,18 to 64 years
+345,  65 years and over,2,Keep,in_low_income_based_on_the_low-income_cut-offs_after_tax,Category,65 years and over
+346,"Prevalence of low income based on the Low-income cut-offs, after tax (LICO-AT) (%)",0,Keep,summary,Summary,"Prevalence of low income based on the Low-income cut-offs, after tax (LICO-AT) (%)"
+347,  0 to 17 years (%),2,No Keep,summary,Summary,"0 to 17 years (%) - Prevalence of low income based on the Low-income cut-offs, after tax (LICO-AT) (%)"
+348,    0 to 5 years (%),4,Keep,summary,Summary,"0 to 5 years (%) - Prevalence of low income based on the Low-income cut-offs, after tax (LICO-AT) (%)"
+349,  18 to 64 years (%),2,Keep,summary,Summary,"18 to 64 years (%) - Prevalence of low income based on the Low-income cut-offs, after tax (LICO-AT) (%)"
+350,  65 years and over (%),2,Keep,summary,Summary,"65 years and over (%) - Prevalence of low income based on the Low-income cut-offs, after tax (LICO-AT) (%)"
+351,Total - Adjusted after-tax economic family income decile group for the population in private households - 100% data,0,Keep,adjusted_after-tax_economic_family_income_decile_group_for_the_population_in_private_households,Total,Total - Adjusted after-tax economic family income decile group for the population in private households - 100% data
+352,  In bottom half of the distribution,2,No Keep,adjusted_after-tax_economic_family_income_decile_group_for_the_population_in_private_households,Category,In bottom half of the distribution
+353,    In bottom decile,4,Keep,adjusted_after-tax_economic_family_income_decile_group_for_the_population_in_private_households,Category,In bottom decile
+354,    In second decile,4,Keep,adjusted_after-tax_economic_family_income_decile_group_for_the_population_in_private_households,Category,In second decile
+355,    In third decile,4,Keep,adjusted_after-tax_economic_family_income_decile_group_for_the_population_in_private_households,Category,In third decile
+356,    In fourth decile,4,Keep,adjusted_after-tax_economic_family_income_decile_group_for_the_population_in_private_households,Category,In fourth decile
+357,    In fifth decile,4,Keep,adjusted_after-tax_economic_family_income_decile_group_for_the_population_in_private_households,Category,In fifth decile
+358,  In top half of the distribution,2,No Keep,adjusted_after-tax_economic_family_income_decile_group_for_the_population_in_private_households,Category,In top half of the distribution
+359,    In sixth decile,4,Keep,adjusted_after-tax_economic_family_income_decile_group_for_the_population_in_private_households,Category,In sixth decile
+360,    In seventh decile,4,Keep,adjusted_after-tax_economic_family_income_decile_group_for_the_population_in_private_households,Category,In seventh decile
+361,    In eighth decile,4,Keep,adjusted_after-tax_economic_family_income_decile_group_for_the_population_in_private_households,Category,In eighth decile
+362,    In ninth decile,4,Keep,adjusted_after-tax_economic_family_income_decile_group_for_the_population_in_private_households,Category,In ninth decile
+363,    In top decile,4,Keep,adjusted_after-tax_economic_family_income_decile_group_for_the_population_in_private_households,Category,In top decile
+364,Total - Inequality measures for the population in private households - 100% data,0,Keep,summary,Summary,Total - Inequality measures for the population in private households - 100% data
+365,  Gini index on adjusted household total income,2,Keep,summary,Summary,Gini index on adjusted household total income
+366,  Gini index on adjusted household market income,2,Keep,summary,Summary,Gini index on adjusted household market income
+367,  Gini index on adjusted household after-tax income,2,Keep,summary,Summary,Gini index on adjusted household after-tax income
+368,  P90/P10 ratio on adjusted household after-tax income,2,Keep,summary,Summary,P90/P10 ratio on adjusted household after-tax income
+369,Total - Knowledge of official languages for the total population excluding institutional residents - 100% data,0,Keep,knowledge_of_official_languages_for_the_total_population_excluding_institutional_residents,Total,Total - Knowledge of official languages for the total population excluding institutional residents - 100% data
+370,  English only,2,Keep,knowledge_of_official_languages_for_the_total_population_excluding_institutional_residents,Category,English only
+371,  French only,2,Keep,knowledge_of_official_languages_for_the_total_population_excluding_institutional_residents,Category,French only
+372,  English and French,2,Keep,knowledge_of_official_languages_for_the_total_population_excluding_institutional_residents,Category,English and French
+373,  Neither English nor French,2,Keep,knowledge_of_official_languages_for_the_total_population_excluding_institutional_residents,Category,Neither English nor French
+374,Total - First official language spoken for the total population excluding institutional residents - 100% data,0,Keep,first_official_language_spoken_for_the_total_population_excluding_institutional_residents,Total,Total - First official language spoken for the total population excluding institutional residents - 100% data
+375,  English,2,Keep,first_official_language_spoken_for_the_total_population_excluding_institutional_residents,Category,English
+376,  French,2,Keep,first_official_language_spoken_for_the_total_population_excluding_institutional_residents,Category,French
+377,  English and French,2,Keep,first_official_language_spoken_for_the_total_population_excluding_institutional_residents,Category,English and French
+378,  Neither English nor French,2,Keep,first_official_language_spoken_for_the_total_population_excluding_institutional_residents,Category,Neither English nor French
+379,Total - Mother tongue for the total population excluding institutional residents - 100% data,0,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Total,Total - Mother tongue for the total population excluding institutional residents - 100% data
+380,  Single responses,2,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Single responses
+381,    Official languages,4,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Official languages
+382,      English,6,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,English
+383,      French,6,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,French
+384,    Non-official languages,4,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Non-official languages
+385,      Indigenous languages,6,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Indigenous languages
+386,        Algonquian languages,8,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Algonquian languages
+387,          Blackfoot,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Blackfoot
+388,          Cree-Innu languages,10,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Cree-Innu languages
+389,            Atikamekw,12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Atikamekw
+390,            Cree languages,12,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Cree languages
+391,              Ililimowin (Moose Cree),14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Ililimowin (Moose Cree)
+392,              Inu Ayimun (Southern East Cree),14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Inu Ayimun (Southern East Cree)
+393,              Iyiyiw-Ayimiwin (Northern East Cree),14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Iyiyiw-Ayimiwin (Northern East Cree)
+394,              Nehinawewin (Swampy Cree),14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Nehinawewin (Swampy Cree)
+395,              Nehiyawewin (Plains Cree),14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Nehiyawewin (Plains Cree)
+396,              Nihithawiwin (Woods Cree),14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Nihithawiwin (Woods Cree)
+397,"              Cree, n.o.s.",14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,"Cree, n.o.s."
+398,            Innu (Montagnais),12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Innu (Montagnais)
+399,            Naskapi,12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Naskapi
+400,          Eastern Algonquian languages,10,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Eastern Algonquian languages
+401,            Mi'kmaq,12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Mi'kmaq
+402,            Wolastoqewi (Malecite),12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Wolastoqewi (Malecite)
+403,          Ojibway-Potawatomi languages,10,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Ojibway-Potawatomi languages
+404,            Anicinabemowin (Algonquin),12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Anicinabemowin (Algonquin)
+405,            Oji-Cree,12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Oji-Cree
+406,            Ojibway languages,12,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Ojibway languages
+407,              Anishinaabemowin (Chippewa),14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Anishinaabemowin (Chippewa)
+408,              Daawaamwin (Odawa),14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Daawaamwin (Odawa)
+409,              Saulteau (Western Ojibway),14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Saulteau (Western Ojibway)
+410,"              Ojibway, n.o.s.",14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,"Ojibway, n.o.s."
+411,"          Algonquian languages, n.i.e.",10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,"Algonquian languages, n.i.e."
+412,        Athabaskan languages,8,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Athabaskan languages
+413,          Northern Athabaskan languages,10,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Northern Athabaskan languages
+414,            Dakelh (Carrier),12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Dakelh (Carrier)
+415,            Dane-zaa (Beaver),12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Dane-zaa (Beaver)
+416,"            Dene, n.o.s.",12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,"Dene, n.o.s."
+417,            Gwich'in,12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Gwich'in
+418,            Slavey-Hare languages,12,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Slavey-Hare languages
+419,              Deh Gah Ghotie Zhatie (South Slavey),14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Deh Gah Ghotie Zhatie (South Slavey)
+420,              Satuotine Yati (North Slavey),14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Satuotine Yati (North Slavey)
+421,"              Slavey, n.o.s.",14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,"Slavey, n.o.s."
+422,            Tahltan languages,12,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Tahltan languages
+423,              Kaska (Nahani),14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Kaska (Nahani)
+424,              Tahltan,14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Tahltan
+425,            Tlicho (Dogrib),12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Tlicho (Dogrib)
+426,            Tse'khene (Sekani),12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Tse'khene (Sekani)
+427,            Tsilhqot'in (Chilcotin),12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Tsilhqot'in (Chilcotin)
+428,            Tsuu T'ina (Sarsi),12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Tsuu T'ina (Sarsi)
+429,            Tutchone languages,12,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Tutchone languages
+430,              Northern Tutchone,14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Northern Tutchone
+431,              Southern Tutchone,14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Southern Tutchone
+432,"              Tutchone, n.o.s.",14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,"Tutchone, n.o.s."
+433,            Wetsuwet'en-Babine,12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Wetsuwet'en-Babine
+434,          Tlingit,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Tlingit
+435,"          Athabaskan languages, n.i.e.",10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,"Athabaskan languages, n.i.e."
+436,        Haida,8,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Haida
+437,        Inuktut (Inuit) languages,8,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Inuktut (Inuit) languages
+438,          Inuinnaqtun (Inuvialuktun),10,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Inuinnaqtun (Inuvialuktun)
+439,            Inuinnaqtun,12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Inuinnaqtun
+440,            Inuvialuktun,12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Inuvialuktun
+441,          Inuktitut,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Inuktitut
+442,"          Inuktut (Inuit) languages, n.i.e.",10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,"Inuktut (Inuit) languages, n.i.e."
+443,        Iroquoian languages,8,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Iroquoian languages
+444,          Cayuga,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Cayuga
+445,          Mohawk,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Mohawk
+446,          Oneida,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Oneida
+447,"          Iroquoian languages, n.i.e.",10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,"Iroquoian languages, n.i.e."
+448,        Ktunaxa (Kutenai),8,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Ktunaxa (Kutenai)
+449,        Michif,8,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Michif
+450,        Salish languages,8,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Salish languages
+451,          Halkomelem,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Halkomelem
+452,          Lillooet,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Lillooet
+453,          Ntlakapamux (Thompson),10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Ntlakapamux (Thompson)
+454,          Secwepemctsin (Shuswap),10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Secwepemctsin (Shuswap)
+455,          Squamish,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Squamish
+456,          Straits,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Straits
+457,          Syilx (Okanagan),10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Syilx (Okanagan)
+458,"          Salish languages, n.i.e.",10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,"Salish languages, n.i.e."
+459,        Siouan languages,8,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Siouan languages
+460,          Assiniboine,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Assiniboine
+461,          Dakota,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Dakota
+462,          Stoney,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Stoney
+463,"          Siouan languages, n.i.e.",10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,"Siouan languages, n.i.e."
+464,        Tsimshian languages,8,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Tsimshian languages
+465,          Gitxsan (Gitksan),10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Gitxsan (Gitksan)
+466,          Nisga'a,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Nisga'a
+467,          Tsimshian,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Tsimshian
+468,        Wakashan languages,8,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Wakashan languages
+469,          Haisla,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Haisla
+470,          Heiltsuk,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Heiltsuk
+471,          Kwak'wala (Kwakiutl),10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Kwak'wala (Kwakiutl)
+472,          Nuu-chah-nulth (Nootka),10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Nuu-chah-nulth (Nootka)
+473,"          Wakashan languages, n.i.e.",10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,"Wakashan languages, n.i.e."
+474,"        Indigenous languages, n.i.e.",8,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,"Indigenous languages, n.i.e."
+475,"        Indigenous languages, n.o.s.",8,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,"Indigenous languages, n.o.s."
+476,      Non-Indigenous languages,6,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Non-Indigenous languages
+477,        Afro-Asiatic languages,8,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Afro-Asiatic languages
+478,          Berber languages,10,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Berber languages
+479,            Kabyle,12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Kabyle
+480,            Tamazight,12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Tamazight
+481,"            Berber languages, n.i.e.",12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,"Berber languages, n.i.e."
+482,          Chadic languages,10,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Chadic languages
+483,            Hausa,12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Hausa
+484,            Mina,12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Mina
+485,          Coptic,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Coptic
+486,          Cushitic languages,10,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Cushitic languages
+487,            Bilen,12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Bilen
+488,            Oromo,12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Oromo
+489,            Somali,12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Somali
+490,"            Cushitic languages, n.i.e.",12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,"Cushitic languages, n.i.e."
+491,          Semitic languages,10,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Semitic languages
+492,            Amharic,12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Amharic
+493,            Arabic,12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Arabic
+494,            Aramaic languages,12,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Aramaic languages
+495,              Assyrian Neo-Aramaic,14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Assyrian Neo-Aramaic
+496,              Chaldean Neo-Aramaic,14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Chaldean Neo-Aramaic
+497,"              Aramaic, n.o.s.",14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,"Aramaic, n.o.s."
+498,            Harari,12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Harari
+499,            Hebrew,12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Hebrew
+500,            Maltese,12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Maltese
+501,            Tigrigna,12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Tigrigna
+502,"            Semitic languages, n.i.e.",12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,"Semitic languages, n.i.e."
+503,        Austro-Asiatic languages,8,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Austro-Asiatic languages
+504,          Khmer (Cambodian),10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Khmer (Cambodian)
+505,          Vietnamese,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Vietnamese
+506,"          Austro-Asiatic languages, n.i.e",10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,"Austro-Asiatic languages, n.i.e"
+507,        Austronesian languages,8,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Austronesian languages
+508,          Bikol,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Bikol
+509,"          Bisaya, n.o.s.",10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,"Bisaya, n.o.s."
+510,          Cebuano,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Cebuano
+511,          Fijian,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Fijian
+512,          Hiligaynon,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Hiligaynon
+513,          Ilocano,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Ilocano
+514,          Indonesian,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Indonesian
+515,          Kankanaey,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Kankanaey
+516,          Kinaray-a,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Kinaray-a
+517,          Malagasy languages,10,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Malagasy languages
+518,            Merina,12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Merina
+519,"            Malagasy, n.o.s.",12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,"Malagasy, n.o.s."
+520,          Malay,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Malay
+521,"          Pampangan (Kapampangan, Pampango)",10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,"Pampangan (Kapampangan, Pampango)"
+522,          Pangasinan,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Pangasinan
+523,"          Tagalog (Pilipino, Filipino)",10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,"Tagalog (Pilipino, Filipino)"
+524,          Waray-Waray,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Waray-Waray
+525,"          Austronesian languages, n.i.e.",10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,"Austronesian languages, n.i.e."
+526,        Creole languages,8,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Creole languages
+527,          Haitian Creole,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Haitian Creole
+528,          Jamaican English Creole,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Jamaican English Creole
+529,          Krio,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Krio
+530,          Morisyen,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Morisyen
+531,          Sango,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Sango
+532,"          Creole, n.o.s.",10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,"Creole, n.o.s."
+533,"          Creole languages, n.i.e.",10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,"Creole languages, n.i.e."
+534,        Dravidian languages,8,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Dravidian languages
+535,          Kannada,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Kannada
+536,          Malayalam,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Malayalam
+537,          Tamil,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Tamil
+538,          Telugu,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Telugu
+539,          Tulu,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Tulu
+540,"          Dravidian languages, n.i.e.",10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,"Dravidian languages, n.i.e."
+541,        Georgian,8,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Georgian
+542,        Hmong-Mien languages,8,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Hmong-Mien languages
+543,        Indo-European languages,8,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Indo-European languages
+544,          Albanian,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Albanian
+545,          Armenian,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Armenian
+546,          Balto-Slavic languages,10,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Balto-Slavic languages
+547,            Baltic languages,12,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Baltic languages
+548,              Latvian,14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Latvian
+549,              Lithuanian,14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Lithuanian
+550,            Slavic languages,12,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Slavic languages
+551,              Belarusian,14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Belarusian
+552,              Bulgarian,14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Bulgarian
+553,              Czech,14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Czech
+554,              Macedonian,14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Macedonian
+555,              Polish,14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Polish
+556,              Russian,14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Russian
+557,              Rusyn,14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Rusyn
+558,              Serbo-Croatian,14,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Serbo-Croatian
+559,                Bosnian,16,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Bosnian
+560,                Croatian,16,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Croatian
+561,                Serbian,16,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Serbian
+562,"                Serbo-Croatian, n.i.e.",16,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,"Serbo-Croatian, n.i.e."
+563,              Slovak,14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Slovak
+564,              Slovene (Slovenian),14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Slovene (Slovenian)
+565,              Ukrainian,14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Ukrainian
+566,"              Slavic languages, n.i.e.",14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,"Slavic languages, n.i.e."
+567,          Celtic languages,10,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Celtic languages
+568,            Irish,12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Irish
+569,            Scottish Gaelic,12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Scottish Gaelic
+570,            Welsh,12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Welsh
+571,"            Celtic languages, n.i.e.",12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,"Celtic languages, n.i.e."
+572,          Germanic languages,10,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Germanic languages
+573,            Frisian,12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Frisian
+574,            High German languages,12,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,High German languages
+575,              German,14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,German
+576,              Pennsylvania German,14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Pennsylvania German
+577,              Swiss German,14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Swiss German
+578,              Yiddish,14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Yiddish
+579,            Low Saxon-Low Franconian languages,12,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Low Saxon-Low Franconian languages
+580,              Afrikaans,14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Afrikaans
+581,              Dutch,14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Dutch
+582,"              Low German, n.o.s.",14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,"Low German, n.o.s."
+583,              Low Saxon,14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Low Saxon
+584,              Plautdietsch,14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Plautdietsch
+585,              Vlaams (Flemish),14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Vlaams (Flemish)
+586,            Scandinavian languages,12,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Scandinavian languages
+587,              Danish,14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Danish
+588,              Icelandic,14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Icelandic
+589,              Norwegian,14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Norwegian
+590,              Swedish,14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Swedish
+591,"            Germanic languages, n.i.e.",12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,"Germanic languages, n.i.e."
+592,          Greek,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Greek
+593,          Indo-Iranian languages,10,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Indo-Iranian languages
+594,            Indo-Aryan languages,12,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Indo-Aryan languages
+595,              Assamese,14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Assamese
+596,              Bengali,14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Bengali
+597,              Gujarati,14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Gujarati
+598,              Hindi,14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Hindi
+599,              Kacchi,14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Kacchi
+600,              Kashmiri,14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Kashmiri
+601,              Konkani,14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Konkani
+602,              Marathi,14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Marathi
+603,              Nepali,14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Nepali
+604,              Oriya languages,14,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Oriya languages
+605,                Odia,16,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Odia
+606,"                Oriya, n.o.s.",16,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,"Oriya, n.o.s."
+607,              Punjabi (Panjabi),14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Punjabi (Panjabi)
+608,              Rohingya,14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Rohingya
+609,              Sindhi,14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Sindhi
+610,              Sinhala (Sinhalese),14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Sinhala (Sinhalese)
+611,              Urdu,14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Urdu
+612,"              Indo-Aryan languages, n.i.e.",14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,"Indo-Aryan languages, n.i.e."
+613,            Iranian languages,12,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Iranian languages
+614,              Baluchi,14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Baluchi
+615,              Kurdish,14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Kurdish
+616,              Parsi,14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Parsi
+617,              Pashto,14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Pashto
+618,              Persian languages,14,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Persian languages
+619,                Dari,16,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Dari
+620,                Iranian Persian,16,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Iranian Persian
+621,"                Persian (Farsi), n.o.s.",16,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,"Persian (Farsi), n.o.s."
+622,"              Iranian languages, n.i.e.",14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,"Iranian languages, n.i.e."
+623,"            Indo-Iranian languages, n.i.e.",12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,"Indo-Iranian languages, n.i.e."
+624,          Italic (Romance) languages,10,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Italic (Romance) languages
+625,            Catalan,12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Catalan
+626,            Italian,12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Italian
+627,            Portuguese,12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Portuguese
+628,            Romanian,12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Romanian
+629,            Spanish,12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Spanish
+630,"            Italic (Romance) languages, n.i.e.",12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,"Italic (Romance) languages, n.i.e."
+631,"          Indo-European languages, n.i.e.",10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,"Indo-European languages, n.i.e."
+632,        Japanese,8,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Japanese
+633,        Korean,8,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Korean
+634,        Mongolian,8,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Mongolian
+635,        Niger-Congo languages,8,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Niger-Congo languages
+636,          Akan (Twi),10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Akan (Twi)
+637,          Bamanankan,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Bamanankan
+638,          Edo,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Edo
+639,          Éwé,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Éwé
+640,"          Fulah (Pular, Pulaar, Fulfulde)",10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,"Fulah (Pular, Pulaar, Fulfulde)"
+641,          Ga,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Ga
+642,          Ganda,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Ganda
+643,          Gikuyu,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Gikuyu
+644,          Igbo,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Igbo
+645,          Kinyarwanda (Rwanda),10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Kinyarwanda (Rwanda)
+646,          Lingala,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Lingala
+647,          Luba-Kasai,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Luba-Kasai
+648,          Mòoré,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Mòoré
+649,          Mwani,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Mwani
+650,          Ndebele,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Ndebele
+651,          Rundi (Kirundi),10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Rundi (Kirundi)
+652,          Shona,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Shona
+653,          Soninke,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Soninke
+654,          Sotho-Tswana languages,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Sotho-Tswana languages
+655,          Swahili,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Swahili
+656,          Wojenaka,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Wojenaka
+657,          Wolof,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Wolof
+658,          Yoruba,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Yoruba
+659,"          Niger-Congo languages, n.i.e.",10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,"Niger-Congo languages, n.i.e."
+660,        Nilo-Saharan languages,8,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Nilo-Saharan languages
+661,          Dinka,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Dinka
+662,          Nuer,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Nuer
+663,"          Nilo-Saharan languages, n.i.e.",10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,"Nilo-Saharan languages, n.i.e."
+664,"          African, n.o.s.",10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,"African, n.o.s."
+665,        Sign languages,8,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Sign languages
+666,          American Sign Language,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,American Sign Language
+667,          Quebec Sign Language,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Quebec Sign Language
+668,"          Sign languages, n.i.e.",10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,"Sign languages, n.i.e."
+669,        Sino-Tibetan languages,8,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Sino-Tibetan languages
+670,          Chinese languages,10,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Chinese languages
+671,            Hakka,12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Hakka
+672,            Mandarin,12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Mandarin
+673,            Min Dong,12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Min Dong
+674,"            Min Nan (Chaochow, Teochow, Fukien, Taiwanese)",12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,"Min Nan (Chaochow, Teochow, Fukien, Taiwanese)"
+675,            Wu (Shanghainese),12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Wu (Shanghainese)
+676,            Yue (Cantonese),12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Yue (Cantonese)
+677,"            Chinese, n.o.s.",12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,"Chinese, n.o.s."
+678,"            Chinese languages, n.i.e.",12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,"Chinese languages, n.i.e."
+679,          Tibeto-Burman languages,10,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Tibeto-Burman languages
+680,            Burmese,12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Burmese
+681,            Kuki-Chin languages,12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Kuki-Chin languages
+682,            Karenic languages,12,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Karenic languages
+683,              S'gaw Karen,14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,S'gaw Karen
+684,"              Karenic languages, n.i.e.",14,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,"Karenic languages, n.i.e."
+685,            Tibetan,12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Tibetan
+686,"            Tibeto-Burman languages, n.i.e.",12,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,"Tibeto-Burman languages, n.i.e."
+687,"          Sino-Tibetan languages, n.i.e.",10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,"Sino-Tibetan languages, n.i.e."
+688,        Tai-Kadai languages,8,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Tai-Kadai languages
+689,          Lao,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Lao
+690,          Thai,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Thai
+691,"          Tai-Kadai languages, n.i.e.",10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,"Tai-Kadai languages, n.i.e."
+692,        Turkic languages,8,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Turkic languages
+693,          Azerbaijani,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Azerbaijani
+694,          Kazakh,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Kazakh
+695,          Turkish,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Turkish
+696,          Uyghur,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Uyghur
+697,          Uzbek,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Uzbek
+698,"          Turkic languages, n.i.e.",10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,"Turkic languages, n.i.e."
+699,        Uralic languages,8,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Uralic languages
+700,          Estonian,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Estonian
+701,          Finnish,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Finnish
+702,          Hungarian,10,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Hungarian
+703,"        Other languages, n.i.e.",8,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,"Other languages, n.i.e."
+704,  Multiple responses,2,No Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Multiple responses
+705,    English and French,4,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,English and French
+706,    English and non-official language(s),4,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,English and non-official language(s)
+707,    French and non-official language(s),4,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,French and non-official language(s)
+708,"    English, French and non-official language(s)",4,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,"English, French and non-official language(s)"
+709,    Multiple non-official languages,4,Keep,mother_tongue_for_the_total_population_excluding_institutional_residents,Category,Multiple non-official languages
+710,Total - All languages spoken at home for the total population excluding institutional residents - 100% data,0,Keep,all_languages_spoken_at_home_for_the_total_population_excluding_institutional_residents,Total,Total - All languages spoken at home for the total population excluding institutional residents - 100% data
+711,  English,2,Keep,all_languages_spoken_at_home_for_the_total_population_excluding_institutional_residents,Category,English
+712,  French,2,Keep,all_languages_spoken_at_home_for_the_total_population_excluding_institutional_residents,Category,French
+713,  Non-official language,2,No Keep,all_languages_spoken_at_home_for_the_total_population_excluding_institutional_residents,Category,Non-official language
+714,    Indigenous,4,Keep,all_languages_spoken_at_home_for_the_total_population_excluding_institutional_residents,Category,Indigenous
+715,    Non-Indigenous,4,Keep,all_languages_spoken_at_home_for_the_total_population_excluding_institutional_residents,Category,Non-Indigenous
+716,  English and French,2,Keep,all_languages_spoken_at_home_for_the_total_population_excluding_institutional_residents,Category,English and French
+717,  English and non-official language(s),2,Keep,all_languages_spoken_at_home_for_the_total_population_excluding_institutional_residents,Category,English and non-official language(s)
+718,  French and non-official language(s),2,Keep,all_languages_spoken_at_home_for_the_total_population_excluding_institutional_residents,Category,French and non-official language(s)
+719,"  English, French and non-official language(s)",2,Keep,all_languages_spoken_at_home_for_the_total_population_excluding_institutional_residents,Category,"English, French and non-official language(s)"
+720,  Multiple non-official languages,2,Keep,all_languages_spoken_at_home_for_the_total_population_excluding_institutional_residents,Category,Multiple non-official languages
+721,Total - Language spoken most often at home for the total population excluding institutional residents - 100% data,0,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Total,Total - Language spoken most often at home for the total population excluding institutional residents - 100% data
+722,  Single responses,2,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Single responses
+723,    Official languages,4,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Official languages
+724,      English,6,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,English
+725,      French,6,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,French
+726,    Non-official languages,4,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Non-official languages
+727,      Indigenous languages,6,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Indigenous languages
+728,        Algonquian languages,8,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Algonquian languages
+729,          Blackfoot,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Blackfoot
+730,          Cree-Innu languages,10,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Cree-Innu languages
+731,            Atikamekw,12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Atikamekw
+732,            Cree languages,12,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Cree languages
+733,              Ililimowin (Moose Cree),14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Ililimowin (Moose Cree)
+734,              Inu Ayimun (Southern East Cree),14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Inu Ayimun (Southern East Cree)
+735,              Iyiyiw-Ayimiwin (Northern East Cree),14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Iyiyiw-Ayimiwin (Northern East Cree)
+736,              Nehinawewin (Swampy Cree),14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Nehinawewin (Swampy Cree)
+737,              Nehiyawewin (Plains Cree),14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Nehiyawewin (Plains Cree)
+738,              Nihithawiwin (Woods Cree),14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Nihithawiwin (Woods Cree)
+739,"              Cree, n.o.s.",14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,"Cree, n.o.s."
+740,            Innu (Montagnais),12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Innu (Montagnais)
+741,            Naskapi,12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Naskapi
+742,          Eastern Algonquian languages,10,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Eastern Algonquian languages
+743,            Mi'kmaq,12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Mi'kmaq
+744,            Wolastoqewi (Malecite),12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Wolastoqewi (Malecite)
+745,          Ojibway-Potawatomi languages,10,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Ojibway-Potawatomi languages
+746,            Anicinabemowin (Algonquin),12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Anicinabemowin (Algonquin)
+747,            Oji-Cree,12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Oji-Cree
+748,            Ojibway languages,12,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Ojibway languages
+749,              Anishinaabemowin (Chippewa),14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Anishinaabemowin (Chippewa)
+750,              Daawaamwin (Odawa),14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Daawaamwin (Odawa)
+751,              Saulteau (Western Ojibway),14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Saulteau (Western Ojibway)
+752,"              Ojibway, n.o.s.",14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,"Ojibway, n.o.s."
+753,"          Algonquian languages, n.i.e.",10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,"Algonquian languages, n.i.e."
+754,        Athabaskan languages,8,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Athabaskan languages
+755,          Northern Athabaskan languages,10,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Northern Athabaskan languages
+756,            Dakelh (Carrier),12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Dakelh (Carrier)
+757,            Dane-zaa (Beaver),12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Dane-zaa (Beaver)
+758,"            Dene, n.o.s.",12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,"Dene, n.o.s."
+759,            Gwich'in,12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Gwich'in
+760,            Slavey-Hare languages,12,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Slavey-Hare languages
+761,              Deh Gah Ghotie Zhatie (South Slavey),14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Deh Gah Ghotie Zhatie (South Slavey)
+762,              Satuotine Yati (North Slavey),14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Satuotine Yati (North Slavey)
+763,"              Slavey, n.o.s.",14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,"Slavey, n.o.s."
+764,            Tahltan languages,12,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Tahltan languages
+765,              Kaska (Nahani),14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Kaska (Nahani)
+766,              Tahltan,14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Tahltan
+767,            Tlicho (Dogrib),12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Tlicho (Dogrib)
+768,            Tse'khene (Sekani),12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Tse'khene (Sekani)
+769,            Tsilhqot'in (Chilcotin),12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Tsilhqot'in (Chilcotin)
+770,            Tsuu T'ina (Sarsi),12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Tsuu T'ina (Sarsi)
+771,            Tutchone languages,12,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Tutchone languages
+772,              Northern Tutchone,14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Northern Tutchone
+773,              Southern Tutchone,14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Southern Tutchone
+774,"              Tutchone, n.o.s.",14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,"Tutchone, n.o.s."
+775,            Wetsuwet'en-Babine,12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Wetsuwet'en-Babine
+776,          Tlingit,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Tlingit
+777,"          Athabaskan languages, n.i.e.",10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,"Athabaskan languages, n.i.e."
+778,        Haida,8,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Haida
+779,        Inuktut (Inuit) languages,8,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Inuktut (Inuit) languages
+780,          Inuinnaqtun (Inuvialuktun),10,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Inuinnaqtun (Inuvialuktun)
+781,            Inuinnaqtun,12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Inuinnaqtun
+782,            Inuvialuktun,12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Inuvialuktun
+783,          Inuktitut,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Inuktitut
+784,"          Inuktut (Inuit) languages, n.i.e.",10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,"Inuktut (Inuit) languages, n.i.e."
+785,        Iroquoian languages,8,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Iroquoian languages
+786,          Cayuga,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Cayuga
+787,          Mohawk,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Mohawk
+788,          Oneida,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Oneida
+789,"          Iroquoian languages, n.i.e.",10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,"Iroquoian languages, n.i.e."
+790,        Ktunaxa (Kutenai),8,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Ktunaxa (Kutenai)
+791,        Michif,8,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Michif
+792,        Salish languages,8,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Salish languages
+793,          Halkomelem,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Halkomelem
+794,          Lillooet,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Lillooet
+795,          Ntlakapamux (Thompson),10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Ntlakapamux (Thompson)
+796,          Secwepemctsin (Shuswap),10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Secwepemctsin (Shuswap)
+797,          Squamish,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Squamish
+798,          Straits,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Straits
+799,          Syilx (Okanagan),10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Syilx (Okanagan)
+800,"          Salish languages, n.i.e.",10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,"Salish languages, n.i.e."
+801,        Siouan languages,8,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Siouan languages
+802,          Assiniboine,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Assiniboine
+803,          Dakota,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Dakota
+804,          Stoney,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Stoney
+805,"          Siouan languages, n.i.e.",10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,"Siouan languages, n.i.e."
+806,        Tsimshian languages,8,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Tsimshian languages
+807,          Gitxsan (Gitksan),10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Gitxsan (Gitksan)
+808,          Nisga'a,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Nisga'a
+809,          Tsimshian,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Tsimshian
+810,        Wakashan languages,8,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Wakashan languages
+811,          Haisla,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Haisla
+812,          Heiltsuk,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Heiltsuk
+813,          Kwak'wala (Kwakiutl),10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Kwak'wala (Kwakiutl)
+814,          Nuu-chah-nulth (Nootka),10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Nuu-chah-nulth (Nootka)
+815,"          Wakashan languages, n.i.e.",10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,"Wakashan languages, n.i.e."
+816,"        Indigenous languages, n.i.e.",8,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,"Indigenous languages, n.i.e."
+817,"        Indigenous languages, n.o.s.",8,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,"Indigenous languages, n.o.s."
+818,      Non-Indigenous languages,6,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Non-Indigenous languages
+819,        Afro-Asiatic languages,8,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Afro-Asiatic languages
+820,          Berber languages,10,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Berber languages
+821,            Kabyle,12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Kabyle
+822,            Tamazight,12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Tamazight
+823,"            Berber languages, n.i.e.",12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,"Berber languages, n.i.e."
+824,          Chadic languages,10,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Chadic languages
+825,            Hausa,12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Hausa
+826,            Mina,12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Mina
+827,          Coptic,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Coptic
+828,          Cushitic languages,10,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Cushitic languages
+829,            Bilen,12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Bilen
+830,            Oromo,12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Oromo
+831,            Somali,12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Somali
+832,"            Cushitic languages, n.i.e.",12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,"Cushitic languages, n.i.e."
+833,          Semitic languages,10,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Semitic languages
+834,            Amharic,12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Amharic
+835,            Arabic,12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Arabic
+836,            Aramaic languages,12,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Aramaic languages
+837,              Assyrian Neo-Aramaic,14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Assyrian Neo-Aramaic
+838,              Chaldean Neo-Aramaic,14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Chaldean Neo-Aramaic
+839,"              Aramaic, n.o.s.",14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,"Aramaic, n.o.s."
+840,            Harari,12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Harari
+841,            Hebrew,12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Hebrew
+842,            Maltese,12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Maltese
+843,            Tigrigna,12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Tigrigna
+844,"            Semitic languages, n.i.e.",12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,"Semitic languages, n.i.e."
+845,        Austro-Asiatic languages,8,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Austro-Asiatic languages
+846,          Khmer (Cambodian),10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Khmer (Cambodian)
+847,          Vietnamese,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Vietnamese
+848,"          Austro-Asiatic languages, n.i.e",10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,"Austro-Asiatic languages, n.i.e"
+849,        Austronesian languages,8,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Austronesian languages
+850,          Bikol,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Bikol
+851,"          Bisaya, n.o.s.",10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,"Bisaya, n.o.s."
+852,          Cebuano,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Cebuano
+853,          Fijian,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Fijian
+854,          Hiligaynon,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Hiligaynon
+855,          Ilocano,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Ilocano
+856,          Indonesian,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Indonesian
+857,          Kankanaey,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Kankanaey
+858,          Kinaray-a,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Kinaray-a
+859,          Malagasy languages,10,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Malagasy languages
+860,            Merina,12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Merina
+861,"            Malagasy, n.o.s.",12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,"Malagasy, n.o.s."
+862,          Malay,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Malay
+863,"          Pampangan (Kapampangan, Pampango)",10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,"Pampangan (Kapampangan, Pampango)"
+864,          Pangasinan,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Pangasinan
+865,"          Tagalog (Pilipino, Filipino)",10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,"Tagalog (Pilipino, Filipino)"
+866,          Waray-Waray,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Waray-Waray
+867,"          Austronesian languages, n.i.e.",10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,"Austronesian languages, n.i.e."
+868,        Creole languages,8,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Creole languages
+869,          Haitian Creole,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Haitian Creole
+870,          Jamaican English Creole,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Jamaican English Creole
+871,          Krio,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Krio
+872,          Morisyen,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Morisyen
+873,          Sango,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Sango
+874,"          Creole, n.o.s.",10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,"Creole, n.o.s."
+875,"          Creole languages, n.i.e.",10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,"Creole languages, n.i.e."
+876,        Dravidian languages,8,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Dravidian languages
+877,          Kannada,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Kannada
+878,          Malayalam,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Malayalam
+879,          Tamil,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Tamil
+880,          Telugu,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Telugu
+881,          Tulu,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Tulu
+882,"          Dravidian languages, n.i.e.",10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,"Dravidian languages, n.i.e."
+883,        Georgian,8,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Georgian
+884,        Hmong-Mien languages,8,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Hmong-Mien languages
+885,        Indo-European languages,8,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Indo-European languages
+886,          Albanian,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Albanian
+887,          Armenian,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Armenian
+888,          Balto-Slavic languages,10,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Balto-Slavic languages
+889,            Baltic languages,12,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Baltic languages
+890,              Latvian,14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Latvian
+891,              Lithuanian,14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Lithuanian
+892,            Slavic languages,12,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Slavic languages
+893,              Belarusian,14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Belarusian
+894,              Bulgarian,14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Bulgarian
+895,              Czech,14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Czech
+896,              Macedonian,14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Macedonian
+897,              Polish,14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Polish
+898,              Russian,14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Russian
+899,              Rusyn,14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Rusyn
+900,              Serbo-Croatian,14,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Serbo-Croatian
+901,                Bosnian,16,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Bosnian
+902,                Croatian,16,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Croatian
+903,                Serbian,16,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Serbian
+904,"                Serbo-Croatian, n.i.e.",16,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,"Serbo-Croatian, n.i.e."
+905,              Slovak,14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Slovak
+906,              Slovene (Slovenian),14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Slovene (Slovenian)
+907,              Ukrainian,14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Ukrainian
+908,"              Slavic languages, n.i.e.",14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,"Slavic languages, n.i.e."
+909,          Celtic languages,10,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Celtic languages
+910,            Irish,12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Irish
+911,            Scottish Gaelic,12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Scottish Gaelic
+912,            Welsh,12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Welsh
+913,"            Celtic languages, n.i.e.",12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,"Celtic languages, n.i.e."
+914,          Germanic languages,10,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Germanic languages
+915,            Frisian,12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Frisian
+916,            High German languages,12,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,High German languages
+917,              German,14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,German
+918,              Pennsylvania German,14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Pennsylvania German
+919,              Swiss German,14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Swiss German
+920,              Yiddish,14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Yiddish
+921,            Low Saxon-Low Franconian languages,12,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Low Saxon-Low Franconian languages
+922,              Afrikaans,14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Afrikaans
+923,              Dutch,14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Dutch
+924,"              Low German, n.o.s.",14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,"Low German, n.o.s."
+925,              Low Saxon,14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Low Saxon
+926,              Plautdietsch,14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Plautdietsch
+927,              Vlaams (Flemish),14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Vlaams (Flemish)
+928,            Scandinavian languages,12,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Scandinavian languages
+929,              Danish,14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Danish
+930,              Icelandic,14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Icelandic
+931,              Norwegian,14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Norwegian
+932,              Swedish,14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Swedish
+933,"            Germanic languages, n.i.e.",12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,"Germanic languages, n.i.e."
+934,          Greek,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Greek
+935,          Indo-Iranian languages,10,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Indo-Iranian languages
+936,            Indo-Aryan languages,12,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Indo-Aryan languages
+937,              Assamese,14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Assamese
+938,              Bengali,14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Bengali
+939,              Gujarati,14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Gujarati
+940,              Hindi,14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Hindi
+941,              Kacchi,14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Kacchi
+942,              Kashmiri,14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Kashmiri
+943,              Konkani,14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Konkani
+944,              Marathi,14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Marathi
+945,              Nepali,14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Nepali
+946,              Oriya languages,14,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Oriya languages
+947,                Odia,16,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Odia
+948,"                Oriya, n.o.s.",16,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,"Oriya, n.o.s."
+949,              Punjabi (Panjabi),14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Punjabi (Panjabi)
+950,              Rohingya,14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Rohingya
+951,              Sindhi,14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Sindhi
+952,              Sinhala (Sinhalese),14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Sinhala (Sinhalese)
+953,              Urdu,14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Urdu
+954,"              Indo-Aryan languages, n.i.e.",14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,"Indo-Aryan languages, n.i.e."
+955,            Iranian languages,12,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Iranian languages
+956,              Baluchi,14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Baluchi
+957,              Kurdish,14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Kurdish
+958,              Parsi,14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Parsi
+959,              Pashto,14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Pashto
+960,              Persian languages,14,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Persian languages
+961,                Dari,16,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Dari
+962,                Iranian Persian,16,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Iranian Persian
+963,"                Persian (Farsi), n.o.s.",16,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,"Persian (Farsi), n.o.s."
+964,"              Iranian languages, n.i.e.",14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,"Iranian languages, n.i.e."
+965,"            Indo-Iranian languages, n.i.e.",12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,"Indo-Iranian languages, n.i.e."
+966,          Italic (Romance) languages,10,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Italic (Romance) languages
+967,            Catalan,12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Catalan
+968,            Italian,12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Italian
+969,            Portuguese,12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Portuguese
+970,            Romanian,12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Romanian
+971,            Spanish,12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Spanish
+972,"            Italic (Romance) languages, n.i.e.",12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,"Italic (Romance) languages, n.i.e."
+973,"          Indo-European languages, n.i.e.",10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,"Indo-European languages, n.i.e."
+974,        Japanese,8,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Japanese
+975,        Korean,8,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Korean
+976,        Mongolian,8,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Mongolian
+977,        Niger-Congo languages,8,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Niger-Congo languages
+978,          Akan (Twi),10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Akan (Twi)
+979,          Bamanankan,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Bamanankan
+980,          Edo,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Edo
+981,          Éwé,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Éwé
+982,"          Fulah (Pular, Pulaar, Fulfulde)",10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,"Fulah (Pular, Pulaar, Fulfulde)"
+983,          Ga,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Ga
+984,          Ganda,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Ganda
+985,          Gikuyu,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Gikuyu
+986,          Igbo,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Igbo
+987,          Kinyarwanda (Rwanda),10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Kinyarwanda (Rwanda)
+988,          Lingala,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Lingala
+989,          Luba-Kasai,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Luba-Kasai
+990,          Mòoré,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Mòoré
+991,          Mwani,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Mwani
+992,          Ndebele,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Ndebele
+993,          Rundi (Kirundi),10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Rundi (Kirundi)
+994,          Shona,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Shona
+995,          Soninke,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Soninke
+996,          Sotho-Tswana languages,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Sotho-Tswana languages
+997,          Swahili,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Swahili
+998,          Wojenaka,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Wojenaka
+999,          Wolof,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Wolof
+1000,          Yoruba,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Yoruba
+1001,"          Niger-Congo languages, n.i.e.",10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,"Niger-Congo languages, n.i.e."
+1002,        Nilo-Saharan languages,8,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Nilo-Saharan languages
+1003,          Dinka,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Dinka
+1004,          Nuer,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Nuer
+1005,"          Nilo-Saharan languages, n.i.e.",10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,"Nilo-Saharan languages, n.i.e."
+1006,"          African, n.o.s.",10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,"African, n.o.s."
+1007,        Sign languages,8,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Sign languages
+1008,          American Sign Language,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,American Sign Language
+1009,          Quebec Sign Language,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Quebec Sign Language
+1010,"          Sign languages, n.i.e.",10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,"Sign languages, n.i.e."
+1011,        Sino-Tibetan languages,8,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Sino-Tibetan languages
+1012,          Chinese languages,10,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Chinese languages
+1013,            Hakka,12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Hakka
+1014,            Mandarin,12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Mandarin
+1015,            Min Dong,12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Min Dong
+1016,"            Min Nan (Chaochow, Teochow, Fukien, Taiwanese)",12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,"Min Nan (Chaochow, Teochow, Fukien, Taiwanese)"
+1017,            Wu (Shanghainese),12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Wu (Shanghainese)
+1018,            Yue (Cantonese),12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Yue (Cantonese)
+1019,"            Chinese, n.o.s.",12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,"Chinese, n.o.s."
+1020,"            Chinese languages, n.i.e.",12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,"Chinese languages, n.i.e."
+1021,          Tibeto-Burman languages,10,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Tibeto-Burman languages
+1022,            Burmese,12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Burmese
+1023,            Kuki-Chin languages,12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Kuki-Chin languages
+1024,            Karenic languages,12,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Karenic languages
+1025,              S'gaw Karen,14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,S'gaw Karen
+1026,"              Karenic languages, n.i.e.",14,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,"Karenic languages, n.i.e."
+1027,            Tibetan,12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Tibetan
+1028,"            Tibeto-Burman languages, n.i.e.",12,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,"Tibeto-Burman languages, n.i.e."
+1029,"          Sino-Tibetan languages, n.i.e.",10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,"Sino-Tibetan languages, n.i.e."
+1030,        Tai-Kadai languages,8,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Tai-Kadai languages
+1031,          Lao,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Lao
+1032,          Thai,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Thai
+1033,"          Tai-Kadai languages, n.i.e.",10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,"Tai-Kadai languages, n.i.e."
+1034,        Turkic languages,8,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Turkic languages
+1035,          Azerbaijani,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Azerbaijani
+1036,          Kazakh,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Kazakh
+1037,          Turkish,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Turkish
+1038,          Uyghur,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Uyghur
+1039,          Uzbek,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Uzbek
+1040,"          Turkic languages, n.i.e.",10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,"Turkic languages, n.i.e."
+1041,        Uralic languages,8,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Uralic languages
+1042,          Estonian,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Estonian
+1043,          Finnish,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Finnish
+1044,          Hungarian,10,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Hungarian
+1045,"        Other languages, n.i.e.",8,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,"Other languages, n.i.e."
+1046,  Multiple responses,2,No Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Multiple responses
+1047,    English and French,4,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,English and French
+1048,    English and non-official language(s),4,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,English and non-official language(s)
+1049,    French and non-official language(s),4,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,French and non-official language(s)
+1050,"    English, French and non-official language(s)",4,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,"English, French and non-official language(s)"
+1051,    Multiple non-official languages,4,Keep,language_spoken_most_often_at_home_for_the_total_population_excluding_institutional_residents,Category,Multiple non-official languages
+1052,Total - Other language(s) spoken regularly at home for the total population excluding institutional residents - 100% data,0,Keep,other_languages_spoken_regularly_at_home_for_the_total_population_excluding_institutional_residents_,Total,Total - Other language(s) spoken regularly at home for the total population excluding institutional residents - 100% data
+1053,  None,2,Keep,other_languages_spoken_regularly_at_home_for_the_total_population_excluding_institutional_residents_,Category,None
+1054,  English,2,Keep,other_languages_spoken_regularly_at_home_for_the_total_population_excluding_institutional_residents_,Category,English
+1055,  French,2,Keep,other_languages_spoken_regularly_at_home_for_the_total_population_excluding_institutional_residents_,Category,French
+1056,  Non-official language,2,No Keep,other_languages_spoken_regularly_at_home_for_the_total_population_excluding_institutional_residents_,Category,Non-official language
+1057,    Indigenous,4,Keep,other_languages_spoken_regularly_at_home_for_the_total_population_excluding_institutional_residents_,Category,Indigenous
+1058,    Non-Indigenous,4,Keep,other_languages_spoken_regularly_at_home_for_the_total_population_excluding_institutional_residents_,Category,Non-Indigenous
+1059,  English and French,2,Keep,other_languages_spoken_regularly_at_home_for_the_total_population_excluding_institutional_residents_,Category,English and French
+1060,  English and non-official language(s),2,Keep,other_languages_spoken_regularly_at_home_for_the_total_population_excluding_institutional_residents_,Category,English and non-official language(s)
+1061,  French and non-official language(s),2,Keep,other_languages_spoken_regularly_at_home_for_the_total_population_excluding_institutional_residents_,Category,French and non-official language(s)
+1062,"  English, French and non-official language(s)",2,Keep,other_languages_spoken_regularly_at_home_for_the_total_population_excluding_institutional_residents_,Category,"English, French and non-official language(s)"
+1063,  Multiple non-official languages,2,Keep,other_languages_spoken_regularly_at_home_for_the_total_population_excluding_institutional_residents_,Category,Multiple non-official languages
+1064,Total - Knowledge of languages for the population in private households - 25% sample data,0,Keep,remove,Total,Total - Knowledge of languages for the population in private households - 25% sample data
+1065,  Official languages,2,No Keep,remove,Category,Official languages
+1066,    English,4,Keep,remove,Category,English
+1067,    French,4,Keep,remove,Category,French
+1068,  Non-official languages,2,No Keep,remove,Category,Non-official languages
+1069,    Indigenous languages,4,No Keep,remove,Category,Indigenous languages
+1070,      Algonquian languages,6,No Keep,remove,Category,Algonquian languages
+1071,        Blackfoot,8,Keep,remove,Category,Blackfoot
+1072,        Cree-Innu languages,8,No Keep,remove,Category,Cree-Innu languages
+1073,          Atikamekw,10,Keep,remove,Category,Atikamekw
+1074,          Cree languages,10,No Keep,remove,Category,Cree languages
+1075,            Ililimowin (Moose Cree),12,Keep,remove,Category,Ililimowin (Moose Cree)
+1076,            Inu Ayimun (Southern East Cree),12,Keep,remove,Category,Inu Ayimun (Southern East Cree)
+1077,            Iyiyiw-Ayimiwin (Northern East Cree),12,Keep,remove,Category,Iyiyiw-Ayimiwin (Northern East Cree)
+1078,            Nehinawewin (Swampy Cree),12,Keep,remove,Category,Nehinawewin (Swampy Cree)
+1079,            Nehiyawewin (Plains Cree),12,Keep,remove,Category,Nehiyawewin (Plains Cree)
+1080,            Nihithawiwin (Woods Cree),12,Keep,remove,Category,Nihithawiwin (Woods Cree)
+1081,"            Cree, n.o.s.",12,Keep,remove,Category,"Cree, n.o.s."
+1082,          Innu (Montagnais),10,Keep,remove,Category,Innu (Montagnais)
+1083,          Naskapi,10,Keep,remove,Category,Naskapi
+1084,        Eastern Algonquian languages,8,No Keep,remove,Category,Eastern Algonquian languages
+1085,          Mi'kmaq,10,Keep,remove,Category,Mi'kmaq
+1086,          Wolastoqewi (Malecite),10,Keep,remove,Category,Wolastoqewi (Malecite)
+1087,        Ojibway-Potawatomi languages,8,No Keep,remove,Category,Ojibway-Potawatomi languages
+1088,          Anicinabemowin (Algonquin),10,Keep,remove,Category,Anicinabemowin (Algonquin)
+1089,          Oji-Cree,10,Keep,remove,Category,Oji-Cree
+1090,          Ojibway languages,10,No Keep,remove,Category,Ojibway languages
+1091,            Anishinaabemowin (Chippewa),12,Keep,remove,Category,Anishinaabemowin (Chippewa)
+1092,            Daawaamwin (Odawa),12,Keep,remove,Category,Daawaamwin (Odawa)
+1093,            Saulteau (Western Ojibway),12,Keep,remove,Category,Saulteau (Western Ojibway)
+1094,"            Ojibway, n.o.s.",12,Keep,remove,Category,"Ojibway, n.o.s."
+1095,"        Algonquian languages, n.i.e.",8,Keep,remove,Category,"Algonquian languages, n.i.e."
+1096,      Athabaskan languages,6,No Keep,remove,Category,Athabaskan languages
+1097,        Northern Athabaskan languages,8,No Keep,remove,Category,Northern Athabaskan languages
+1098,          Dakelh (Carrier),10,Keep,remove,Category,Dakelh (Carrier)
+1099,          Dane-zaa (Beaver),10,Keep,remove,Category,Dane-zaa (Beaver)
+1100,"          Dene, n.o.s.",10,Keep,remove,Category,"Dene, n.o.s."
+1101,          Gwich'in,10,Keep,remove,Category,Gwich'in
+1102,          Slavey-Hare languages,10,No Keep,remove,Category,Slavey-Hare languages
+1103,            Deh Gah Ghotie Zhatie (South Slavey),12,Keep,remove,Category,Deh Gah Ghotie Zhatie (South Slavey)
+1104,            Satuotine Yati (North Slavey),12,Keep,remove,Category,Satuotine Yati (North Slavey)
+1105,"            Slavey, n.o.s.",12,Keep,remove,Category,"Slavey, n.o.s."
+1106,          Tahltan languages,10,No Keep,remove,Category,Tahltan languages
+1107,            Kaska (Nahani),12,Keep,remove,Category,Kaska (Nahani)
+1108,            Tahltan,12,Keep,remove,Category,Tahltan
+1109,          Tlicho (Dogrib),10,Keep,remove,Category,Tlicho (Dogrib)
+1110,          Tse'khene (Sekani),10,Keep,remove,Category,Tse'khene (Sekani)
+1111,          Tsilhqot'in (Chilcotin),10,Keep,remove,Category,Tsilhqot'in (Chilcotin)
+1112,          Tsuu T'ina (Sarsi),10,Keep,remove,Category,Tsuu T'ina (Sarsi)
+1113,          Tutchone languages,10,No Keep,remove,Category,Tutchone languages
+1114,            Northern Tutchone,12,Keep,remove,Category,Northern Tutchone
+1115,            Southern Tutchone,12,Keep,remove,Category,Southern Tutchone
+1116,"            Tutchone, n.o.s.",12,Keep,remove,Category,"Tutchone, n.o.s."
+1117,          Wetsuwet'en-Babine,10,Keep,remove,Category,Wetsuwet'en-Babine
+1118,        Tlingit,8,Keep,remove,Category,Tlingit
+1119,"        Athabaskan languages, n.i.e.",8,Keep,remove,Category,"Athabaskan languages, n.i.e."
+1120,      Haida,6,Keep,remove,Category,Haida
+1121,      Inuktut (Inuit) languages,6,No Keep,remove,Category,Inuktut (Inuit) languages
+1122,        Inuinnaqtun (Inuvialuktun),8,No Keep,remove,Category,Inuinnaqtun (Inuvialuktun)
+1123,          Inuinnaqtun,10,Keep,remove,Category,Inuinnaqtun
+1124,          Inuvialuktun,10,Keep,remove,Category,Inuvialuktun
+1125,        Inuktitut,8,Keep,remove,Category,Inuktitut
+1126,"        Inuktut (Inuit) languages, n.i.e.",8,Keep,remove,Category,"Inuktut (Inuit) languages, n.i.e."
+1127,      Iroquoian languages,6,No Keep,remove,Category,Iroquoian languages
+1128,        Cayuga,8,Keep,remove,Category,Cayuga
+1129,        Mohawk,8,Keep,remove,Category,Mohawk
+1130,        Oneida,8,Keep,remove,Category,Oneida
+1131,"        Iroquoian languages, n.i.e.",8,Keep,remove,Category,"Iroquoian languages, n.i.e."
+1132,      Ktunaxa (Kutenai),6,Keep,remove,Category,Ktunaxa (Kutenai)
+1133,      Michif,6,Keep,remove,Category,Michif
+1134,      Salish languages,6,No Keep,remove,Category,Salish languages
+1135,        Halkomelem,8,Keep,remove,Category,Halkomelem
+1136,        Lillooet,8,Keep,remove,Category,Lillooet
+1137,        Ntlakapamux (Thompson),8,Keep,remove,Category,Ntlakapamux (Thompson)
+1138,        Secwepemctsin (Shuswap),8,Keep,remove,Category,Secwepemctsin (Shuswap)
+1139,        Squamish,8,Keep,remove,Category,Squamish
+1140,        Straits,8,Keep,remove,Category,Straits
+1141,        Syilx (Okanagan),8,Keep,remove,Category,Syilx (Okanagan)
+1142,"        Salish languages, n.i.e.",8,Keep,remove,Category,"Salish languages, n.i.e."
+1143,      Siouan languages,6,No Keep,remove,Category,Siouan languages
+1144,        Assiniboine,8,Keep,remove,Category,Assiniboine
+1145,        Dakota,8,Keep,remove,Category,Dakota
+1146,        Stoney,8,Keep,remove,Category,Stoney
+1147,"        Siouan languages, n.i.e.",8,Keep,remove,Category,"Siouan languages, n.i.e."
+1148,      Tsimshian languages,6,No Keep,remove,Category,Tsimshian languages
+1149,        Gitxsan (Gitksan),8,Keep,remove,Category,Gitxsan (Gitksan)
+1150,        Nisga'a,8,Keep,remove,Category,Nisga'a
+1151,        Tsimshian,8,Keep,remove,Category,Tsimshian
+1152,      Wakashan languages,6,No Keep,remove,Category,Wakashan languages
+1153,        Haisla,8,Keep,remove,Category,Haisla
+1154,        Heiltsuk,8,Keep,remove,Category,Heiltsuk
+1155,        Kwak'wala (Kwakiutl),8,Keep,remove,Category,Kwak'wala (Kwakiutl)
+1156,        Nuu-chah-nulth (Nootka),8,Keep,remove,Category,Nuu-chah-nulth (Nootka)
+1157,"        Wakashan languages, n.i.e.",8,Keep,remove,Category,"Wakashan languages, n.i.e."
+1158,"      Indigenous languages, n.i.e.",6,Keep,remove,Category,"Indigenous languages, n.i.e."
+1159,"      Indigenous languages, n.o.s.",6,Keep,remove,Category,"Indigenous languages, n.o.s."
+1160,    Non-Indigenous languages,4,No Keep,remove,Category,Non-Indigenous languages
+1161,      Afro-Asiatic languages,6,No Keep,remove,Category,Afro-Asiatic languages
+1162,        Berber languages,8,No Keep,remove,Category,Berber languages
+1163,          Kabyle,10,Keep,remove,Category,Kabyle
+1164,          Tamazight,10,Keep,remove,Category,Tamazight
+1165,"          Berber languages, n.i.e.",10,Keep,remove,Category,"Berber languages, n.i.e."
+1166,        Chadic languages,8,No Keep,remove,Category,Chadic languages
+1167,          Hausa,10,Keep,remove,Category,Hausa
+1168,          Mina,10,Keep,remove,Category,Mina
+1169,        Coptic,8,Keep,remove,Category,Coptic
+1170,        Cushitic languages,8,No Keep,remove,Category,Cushitic languages
+1171,          Bilen,10,Keep,remove,Category,Bilen
+1172,          Oromo,10,Keep,remove,Category,Oromo
+1173,          Somali,10,Keep,remove,Category,Somali
+1174,"          Cushitic languages, n.i.e.",10,Keep,remove,Category,"Cushitic languages, n.i.e."
+1175,        Semitic languages,8,No Keep,remove,Category,Semitic languages
+1176,          Amharic,10,Keep,remove,Category,Amharic
+1177,          Arabic,10,Keep,remove,Category,Arabic
+1178,          Aramaic languages,10,No Keep,remove,Category,Aramaic languages
+1179,            Assyrian Neo-Aramaic,12,Keep,remove,Category,Assyrian Neo-Aramaic
+1180,            Chaldean Neo-Aramaic,12,Keep,remove,Category,Chaldean Neo-Aramaic
+1181,"            Aramaic, n.o.s.",12,Keep,remove,Category,"Aramaic, n.o.s."
+1182,          Harari,10,Keep,remove,Category,Harari
+1183,          Hebrew,10,Keep,remove,Category,Hebrew
+1184,          Maltese,10,Keep,remove,Category,Maltese
+1185,          Tigrigna,10,Keep,remove,Category,Tigrigna
+1186,"          Semitic languages, n.i.e.",10,Keep,remove,Category,"Semitic languages, n.i.e."
+1187,      Austro-Asiatic languages,6,No Keep,remove,Category,Austro-Asiatic languages
+1188,        Khmer (Cambodian),8,Keep,remove,Category,Khmer (Cambodian)
+1189,        Vietnamese,8,Keep,remove,Category,Vietnamese
+1190,"        Austro-Asiatic languages, n.i.e",8,Keep,remove,Category,"Austro-Asiatic languages, n.i.e"
+1191,      Austronesian languages,6,No Keep,remove,Category,Austronesian languages
+1192,        Bikol,8,Keep,remove,Category,Bikol
+1193,"        Bisaya, n.o.s.",8,Keep,remove,Category,"Bisaya, n.o.s."
+1194,        Cebuano,8,Keep,remove,Category,Cebuano
+1195,        Fijian,8,Keep,remove,Category,Fijian
+1196,        Hiligaynon,8,Keep,remove,Category,Hiligaynon
+1197,        Ilocano,8,Keep,remove,Category,Ilocano
+1198,        Indonesian,8,Keep,remove,Category,Indonesian
+1199,        Kankanaey,8,Keep,remove,Category,Kankanaey
+1200,        Kinaray-a,8,Keep,remove,Category,Kinaray-a
+1201,        Malagasy languages,8,No Keep,remove,Category,Malagasy languages
+1202,          Merina,10,Keep,remove,Category,Merina
+1203,"          Malagasy, n.o.s.",10,Keep,remove,Category,"Malagasy, n.o.s."
+1204,        Malay,8,Keep,remove,Category,Malay
+1205,"        Pampangan (Kapampangan, Pampango)",8,Keep,remove,Category,"Pampangan (Kapampangan, Pampango)"
+1206,        Pangasinan,8,Keep,remove,Category,Pangasinan
+1207,"        Tagalog (Pilipino, Filipino)",8,Keep,remove,Category,"Tagalog (Pilipino, Filipino)"
+1208,        Waray-Waray,8,Keep,remove,Category,Waray-Waray
+1209,"        Austronesian languages, n.i.e.",8,Keep,remove,Category,"Austronesian languages, n.i.e."
+1210,      Creole languages,6,No Keep,remove,Category,Creole languages
+1211,        Haitian Creole,8,Keep,remove,Category,Haitian Creole
+1212,        Jamaican English Creole,8,Keep,remove,Category,Jamaican English Creole
+1213,        Krio,8,Keep,remove,Category,Krio
+1214,        Morisyen,8,Keep,remove,Category,Morisyen
+1215,        Sango,8,Keep,remove,Category,Sango
+1216,"        Creole, n.o.s.",8,Keep,remove,Category,"Creole, n.o.s."
+1217,"        Creole languages, n.i.e.",8,Keep,remove,Category,"Creole languages, n.i.e."
+1218,      Dravidian languages,6,No Keep,remove,Category,Dravidian languages
+1219,        Kannada,8,Keep,remove,Category,Kannada
+1220,        Malayalam,8,Keep,remove,Category,Malayalam
+1221,        Tamil,8,Keep,remove,Category,Tamil
+1222,        Telugu,8,Keep,remove,Category,Telugu
+1223,        Tulu,8,Keep,remove,Category,Tulu
+1224,"        Dravidian languages, n.i.e.",8,Keep,remove,Category,"Dravidian languages, n.i.e."
+1225,      Georgian,6,Keep,remove,Category,Georgian
+1226,      Hmong-Mien languages,6,Keep,remove,Category,Hmong-Mien languages
+1227,      Indo-European languages,6,No Keep,remove,Category,Indo-European languages
+1228,        Albanian,8,Keep,remove,Category,Albanian
+1229,        Armenian,8,Keep,remove,Category,Armenian
+1230,        Balto-Slavic languages,8,Keep,remove,Category,Balto-Slavic languages
+1231,        Baltic languages,8,No Keep,remove,Category,Baltic languages
+1232,            Latvian,12,Keep,remove,Category,Latvian
+1233,            Lithuanian,12,Keep,remove,Category,Lithuanian
+1234,          Slavic languages,10,No Keep,remove,Category,Slavic languages
+1235,            Belarusian,12,Keep,remove,Category,Belarusian
+1236,            Bulgarian,12,Keep,remove,Category,Bulgarian
+1237,            Czech,12,Keep,remove,Category,Czech
+1238,            Macedonian,12,Keep,remove,Category,Macedonian
+1239,            Polish,12,Keep,remove,Category,Polish
+1240,            Russian,12,Keep,remove,Category,Russian
+1241,            Rusyn,12,Keep,remove,Category,Rusyn
+1242,            Serbo-Croatian,12,No Keep,remove,Category,Serbo-Croatian
+1243,              Bosnian,14,Keep,remove,Category,Bosnian
+1244,              Croatian,14,Keep,remove,Category,Croatian
+1245,              Serbian,14,Keep,remove,Category,Serbian
+1246,"              Serbo-Croatian, n.i.e.",14,Keep,remove,Category,"Serbo-Croatian, n.i.e."
+1247,            Slovak,12,Keep,remove,Category,Slovak
+1248,            Slovene (Slovenian),12,Keep,remove,Category,Slovene (Slovenian)
+1249,            Ukrainian,12,Keep,remove,Category,Ukrainian
+1250,"            Slavic languages, n.i.e.",12,Keep,remove,Category,"Slavic languages, n.i.e."
+1251,        Celtic languages,8,No Keep,remove,Category,Celtic languages
+1252,          Irish,10,Keep,remove,Category,Irish
+1253,          Scottish Gaelic,10,Keep,remove,Category,Scottish Gaelic
+1254,          Welsh,10,Keep,remove,Category,Welsh
+1255,"          Celtic languages, n.i.e.",10,Keep,remove,Category,"Celtic languages, n.i.e."
+1256,        Germanic languages,8,No Keep,remove,Category,Germanic languages
+1257,          Frisian,10,Keep,remove,Category,Frisian
+1258,          High German languages,10,No Keep,remove,Category,High German languages
+1259,            German,12,Keep,remove,Category,German
+1260,            Pennsylvania German,12,Keep,remove,Category,Pennsylvania German
+1261,            Swiss German,12,Keep,remove,Category,Swiss German
+1262,            Yiddish,12,Keep,remove,Category,Yiddish
+1263,          Low Saxon-Low Franconian languages,10,No Keep,remove,Category,Low Saxon-Low Franconian languages
+1264,            Afrikaans,12,Keep,remove,Category,Afrikaans
+1265,            Dutch,12,Keep,remove,Category,Dutch
+1266,"            Low German, n.o.s.",12,Keep,remove,Category,"Low German, n.o.s."
+1267,            Low Saxon,12,Keep,remove,Category,Low Saxon
+1268,            Plautdietsch,12,Keep,remove,Category,Plautdietsch
+1269,            Vlaams (Flemish),12,Keep,remove,Category,Vlaams (Flemish)
+1270,          Scandinavian languages,10,No Keep,remove,Category,Scandinavian languages
+1271,            Danish,12,Keep,remove,Category,Danish
+1272,            Icelandic,12,Keep,remove,Category,Icelandic
+1273,            Norwegian,12,Keep,remove,Category,Norwegian
+1274,            Swedish,12,Keep,remove,Category,Swedish
+1275,"          Germanic languages, n.i.e.",10,Keep,remove,Category,"Germanic languages, n.i.e."
+1276,        Greek,8,Keep,remove,Category,Greek
+1277,        Indo-Iranian languages,8,No Keep,remove,Category,Indo-Iranian languages
+1278,          Indo-Aryan languages,10,No Keep,remove,Category,Indo-Aryan languages
+1279,            Assamese,12,Keep,remove,Category,Assamese
+1280,            Bengali,12,Keep,remove,Category,Bengali
+1281,            Gujarati,12,Keep,remove,Category,Gujarati
+1282,            Hindi,12,Keep,remove,Category,Hindi
+1283,            Kacchi,12,Keep,remove,Category,Kacchi
+1284,            Kashmiri,12,Keep,remove,Category,Kashmiri
+1285,            Konkani,12,Keep,remove,Category,Konkani
+1286,            Marathi,12,Keep,remove,Category,Marathi
+1287,            Nepali,12,Keep,remove,Category,Nepali
+1288,            Oriya languages,12,No Keep,remove,Category,Oriya languages
+1289,              Odia,14,Keep,remove,Category,Odia
+1290,"              Oriya, n.o.s.",14,Keep,remove,Category,"Oriya, n.o.s."
+1291,            Punjabi (Panjabi),12,Keep,remove,Category,Punjabi (Panjabi)
+1292,            Rohingya,12,Keep,remove,Category,Rohingya
+1293,            Sindhi,12,Keep,remove,Category,Sindhi
+1294,            Sinhala (Sinhalese),12,Keep,remove,Category,Sinhala (Sinhalese)
+1295,            Urdu,12,Keep,remove,Category,Urdu
+1296,"            Indo-Aryan languages, n.i.e.",12,Keep,remove,Category,"Indo-Aryan languages, n.i.e."
+1297,          Iranian languages,10,No Keep,remove,Category,Iranian languages
+1298,            Baluchi,12,Keep,remove,Category,Baluchi
+1299,            Kurdish,12,Keep,remove,Category,Kurdish
+1300,            Parsi,12,Keep,remove,Category,Parsi
+1301,            Pashto,12,Keep,remove,Category,Pashto
+1302,            Persian languages,12,No Keep,remove,Category,Persian languages
+1303,              Dari,14,Keep,remove,Category,Dari
+1304,              Iranian Persian,14,Keep,remove,Category,Iranian Persian
+1305,"              Persian (Farsi), n.o.s.",14,Keep,remove,Category,"Persian (Farsi), n.o.s."
+1306,"            Iranian languages, n.i.e.",12,Keep,remove,Category,"Iranian languages, n.i.e."
+1307,"          Indo-Iranian languages, n.i.e.",10,Keep,remove,Category,"Indo-Iranian languages, n.i.e."
+1308,        Italic (Romance) languages,8,No Keep,remove,Category,Italic (Romance) languages
+1309,          Catalan,10,Keep,remove,Category,Catalan
+1310,          Italian,10,Keep,remove,Category,Italian
+1311,          Portuguese,10,Keep,remove,Category,Portuguese
+1312,          Romanian,10,Keep,remove,Category,Romanian
+1313,          Spanish,10,Keep,remove,Category,Spanish
+1314,"          Italic (Romance) languages, n.i.e.",10,Keep,remove,Category,"Italic (Romance) languages, n.i.e."
+1315,"        Indo-European languages, n.i.e.",8,Keep,remove,Category,"Indo-European languages, n.i.e."
+1316,      Japanese,6,Keep,remove,Category,Japanese
+1317,      Korean,6,Keep,remove,Category,Korean
+1318,      Mongolian,6,Keep,remove,Category,Mongolian
+1319,      Niger-Congo languages,6,No Keep,remove,Category,Niger-Congo languages
+1320,        Akan (Twi),8,Keep,remove,Category,Akan (Twi)
+1321,        Bamanankan,8,Keep,remove,Category,Bamanankan
+1322,        Edo,8,Keep,remove,Category,Edo
+1323,        Éwé,8,Keep,remove,Category,Éwé
+1324,"        Fulah (Pular, Pulaar, Fulfulde)",8,Keep,remove,Category,"Fulah (Pular, Pulaar, Fulfulde)"
+1325,        Ga,8,Keep,remove,Category,Ga
+1326,        Ganda,8,Keep,remove,Category,Ganda
+1327,        Gikuyu,8,Keep,remove,Category,Gikuyu
+1328,        Igbo,8,Keep,remove,Category,Igbo
+1329,        Kinyarwanda (Rwanda),8,Keep,remove,Category,Kinyarwanda (Rwanda)
+1330,        Lingala,8,Keep,remove,Category,Lingala
+1331,        Luba-Kasai,8,Keep,remove,Category,Luba-Kasai
+1332,        Mòoré,8,Keep,remove,Category,Mòoré
+1333,        Mwani,8,Keep,remove,Category,Mwani
+1334,        Ndebele,8,Keep,remove,Category,Ndebele
+1335,        Rundi (Kirundi),8,Keep,remove,Category,Rundi (Kirundi)
+1336,        Shona,8,Keep,remove,Category,Shona
+1337,        Soninke,8,Keep,remove,Category,Soninke
+1338,        Sotho-Tswana languages,8,Keep,remove,Category,Sotho-Tswana languages
+1339,        Swahili,8,Keep,remove,Category,Swahili
+1340,        Wojenaka,8,Keep,remove,Category,Wojenaka
+1341,        Wolof,8,Keep,remove,Category,Wolof
+1342,        Yoruba,8,Keep,remove,Category,Yoruba
+1343,"        Niger-Congo languages, n.i.e.",8,Keep,remove,Category,"Niger-Congo languages, n.i.e."
+1344,      Nilo-Saharan languages,6,No Keep,remove,Category,Nilo-Saharan languages
+1345,        Dinka,8,Keep,remove,Category,Dinka
+1346,        Nuer,8,Keep,remove,Category,Nuer
+1347,"        Nilo-Saharan languages, n.i.e.",8,Keep,remove,Category,"Nilo-Saharan languages, n.i.e."
+1348,"        African, n.o.s.",8,Keep,remove,Category,"African, n.o.s."
+1349,      Sign languages,6,No Keep,remove,Category,Sign languages
+1350,        American Sign Language,8,Keep,remove,Category,American Sign Language
+1351,        Quebec Sign Language,8,Keep,remove,Category,Quebec Sign Language
+1352,"        Sign languages, n.i.e.",8,Keep,remove,Category,"Sign languages, n.i.e."
+1353,      Sino-Tibetan languages,6,No Keep,remove,Category,Sino-Tibetan languages
+1354,        Chinese languages,8,No Keep,remove,Category,Chinese languages
+1355,          Hakka,10,Keep,remove,Category,Hakka
+1356,          Mandarin,10,Keep,remove,Category,Mandarin
+1357,          Min Dong,10,Keep,remove,Category,Min Dong
+1358,"          Min Nan (Chaochow, Teochow, Fukien, Taiwanese)",10,Keep,remove,Category,"Min Nan (Chaochow, Teochow, Fukien, Taiwanese)"
+1359,          Wu (Shanghainese),10,Keep,remove,Category,Wu (Shanghainese)
+1360,          Yue (Cantonese),10,Keep,remove,Category,Yue (Cantonese)
+1361,"          Chinese, n.o.s.",10,Keep,remove,Category,"Chinese, n.o.s."
+1362,"          Chinese languages, n.i.e.",10,Keep,remove,Category,"Chinese languages, n.i.e."
+1363,        Tibeto-Burman languages,8,No Keep,remove,Category,Tibeto-Burman languages
+1364,          Burmese,10,Keep,remove,Category,Burmese
+1365,          Kuki-Chin languages,10,Keep,remove,Category,Kuki-Chin languages
+1366,          Karenic languages,10,No Keep,remove,Category,Karenic languages
+1367,            S'gaw Karen,12,Keep,remove,Category,S'gaw Karen
+1368,"            Karenic languages, n.i.e.",12,Keep,remove,Category,"Karenic languages, n.i.e."
+1369,          Tibetan,10,Keep,remove,Category,Tibetan
+1370,"          Tibeto-Burman languages, n.i.e.",10,Keep,remove,Category,"Tibeto-Burman languages, n.i.e."
+1371,"        Sino-Tibetan languages, n.i.e.",8,Keep,remove,Category,"Sino-Tibetan languages, n.i.e."
+1372,      Tai-Kadai languages,6,No Keep,remove,Category,Tai-Kadai languages
+1373,        Lao,8,Keep,remove,Category,Lao
+1374,        Thai,8,Keep,remove,Category,Thai
+1375,"        Tai-Kadai languages, n.i.e.",8,Keep,remove,Category,"Tai-Kadai languages, n.i.e."
+1376,      Turkic languages,6,No Keep,remove,Category,Turkic languages
+1377,        Azerbaijani,8,Keep,remove,Category,Azerbaijani
+1378,        Kazakh,8,Keep,remove,Category,Kazakh
+1379,        Turkish,8,Keep,remove,Category,Turkish
+1380,        Uyghur,8,Keep,remove,Category,Uyghur
+1381,        Uzbek,8,Keep,remove,Category,Uzbek
+1382,"        Turkic languages, n.i.e.",8,Keep,remove,Category,"Turkic languages, n.i.e."
+1383,      Uralic languages,6,No Keep,remove,Category,Uralic languages
+1384,        Estonian,8,Keep,remove,Category,Estonian
+1385,        Finnish,8,Keep,remove,Category,Finnish
+1386,        Hungarian,8,Keep,remove,Category,Hungarian
+1387,"      Other languages, n.i.e.",6,Keep,remove,Category,"Other languages, n.i.e."

@@ -1,0 +1,84 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+    provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url = env("DATABASE_URL")
+}
+
+
+model age_groups {
+    index BigInt @id 
+    census_year BigInt
+    dguid String
+    alt_geo_code BigInt
+    geo_level String
+    geo_name String
+    total_0_to_4_years Float
+    total_10_to_14_years Float
+    total_100_years_and_over Float
+    total_15_to_19_years Float
+    total_20_to_24_years Float
+    total_25_to_29_years Float
+    total_30_to_34_years Float
+    total_35_to_39_years Float
+    total_40_to_44_years Float
+    total_45_to_49_years Float
+    total_5_to_9_years Float
+    total_50_to_54_years Float
+    total_55_to_59_years Float
+    total_60_to_64_years Float
+    total_65_to_69_years Float
+    total_70_to_74_years Float
+    total_75_to_79_years Float
+    total_80_to_84_years Float
+    total_85_to_89_years Float
+    total_90_to_94_years Float
+    total_95_to_99_years Float
+    male_0_to_4_years Float
+    male_10_to_14_years Float
+    male_100_years_and_over Float
+    male_15_to_19_years Float
+    male_20_to_24_years Float
+    male_25_to_29_years Float
+    male_30_to_34_years Float
+    male_35_to_39_years Float
+    male_40_to_44_years Float
+    male_45_to_49_years Float
+    male_5_to_9_years Float
+    male_50_to_54_years Float
+    male_55_to_59_years Float
+    male_60_to_64_years Float
+    male_65_to_69_years Float
+    male_70_to_74_years Float
+    male_75_to_79_years Float
+    male_80_to_84_years Float
+    male_85_to_89_years Float
+    male_90_to_94_years Float
+    male_95_to_99_years Float
+    female_0_to_4_years Float
+    female_10_to_14_years Float
+    female_100_years_and_over Float
+    female_15_to_19_years Float
+    female_20_to_24_years Float
+    female_25_to_29_years Float
+    female_30_to_34_years Float
+    female_35_to_39_years Float
+    female_40_to_44_years Float
+    female_45_to_49_years Float
+    female_5_to_9_years Float
+    female_50_to_54_years Float
+    female_55_to_59_years Float
+    female_60_to_64_years Float
+    female_65_to_69_years Float
+    female_70_to_74_years Float
+    female_75_to_79_years Float
+    female_80_to_84_years Float
+    female_85_to_89_years Float
+    female_90_to_94_years Float
+    female_95_to_99_years Float
+}
