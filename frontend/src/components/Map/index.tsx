@@ -1,23 +1,13 @@
 import { useState, useEffect, MouseEvent } from "react";
 import { MapContainer, TileLayer, useMapEvents, GeoJSON } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
-import provinces from "./provinces.json";
-import censusDivision from "./censusDivisions.json";
-import { TypeOf } from "zod";
-import { GeoJsonObject } from "geojson";
-
-const GeoJSONData: GeoJSON.Feature = {
-  type: "Feature",
-  geometry: {
-    type: "Point",
-    coordinates: [125.6, 10.1],
-  },
-  properties: {},
-};
+import { trpc } from "../../utils/trpc";
+import { Feature, GeoJsonObject } from "geojson";
 
 interface Props {
   setZoomLevel: (arg0: any) => void;
-  data: typeof GeoJSONData;
+  data: GeoJsonObject;
+  // Feature[];
   setSelectedDGUID: (arg0: any) => void;
 }
 
@@ -29,9 +19,9 @@ const OverLays = ({ setZoomLevel, data, setSelectedDGUID }: Props) => {
       setZoomLevel(mapEvents.getZoom());
     },
   });
-  // TO DO: Change feature and layer away from any to GeoJSON.Feature
+  // TO DO: Change layer away from any to GeoJSON.Feature
 
-  const onEachFeature = (feature: typeof GeoJSONData, layer: any) => {
+  const onEachFeature = (feature: Feature, layer: any) => {
     layer.on({
       mouseover: onMouseOver,
       mouseout: resetHighlight,
@@ -39,7 +29,7 @@ const OverLays = ({ setZoomLevel, data, setSelectedDGUID }: Props) => {
     });
   };
   const handleClick = (event: any) => {
-    setSelectedDGUID(event.target.feature.properties.DGUID);
+    setSelectedDGUID(event.target.feature.properties.dguid);
   };
 
   const onMouseOver = (event: any) => {
@@ -59,19 +49,24 @@ const OverLays = ({ setZoomLevel, data, setSelectedDGUID }: Props) => {
 
 const Map = ({ setSelectedDGUID }: any) => {
   const [zoomLevel, setZoomLevel] = useState(3); // initial zoom level provided for MapContainer
-  const [data, setData] = useState<any>(provinces); //
+  const { data: provinces } = trpc.useQuery([
+    "geoAreas.getAllProvinces",
+    { geo_level: "provinces" },
+  ]);
+  // const [data, setData] = useState<any>(provinces); //
 
-  useEffect(() => {
-    const handleData = () => {
-      if (zoomLevel <= 2) {
-        setData(provinces);
-      } else {
-        setData(censusDivision);
-      }
-    };
-    setData(provinces);
-    handleData();
-  }, [zoomLevel]);
+  // useEffect(() => {
+  //   const handleData = () => {
+  //     if (zoomLevel <= 2) {
+  //       setData(provinces);
+  //     } else {
+  //       setData(censusDivision);
+  //     }
+  //   };
+  //   setData(provinces);
+  //   handleData();
+  // }, [zoomLevel]);
+  const overlays = provinces || { type: "FeatureCollection", features: [] };
 
   return (
     <div className="leaflet-container">
@@ -86,7 +81,7 @@ const Map = ({ setSelectedDGUID }: any) => {
         />
         <OverLays
           setZoomLevel={setZoomLevel}
-          data={data.features}
+          data={overlays}
           key={zoomLevel}
           setSelectedDGUID={setSelectedDGUID}
         />

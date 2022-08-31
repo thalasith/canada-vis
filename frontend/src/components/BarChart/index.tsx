@@ -1,11 +1,5 @@
 import { BarChart, Bar, XAxis, YAxis, Tooltip, Legend } from "recharts";
 
-interface AgeDataShape {
-  name: string;
-  male: number;
-  female: number;
-}
-
 const TestChart = ({ ageData }: any) => {
   return (
     <div className="w-full">

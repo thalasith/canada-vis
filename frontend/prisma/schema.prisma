@@ -66,4 +66,13 @@ model geo_names {
     geo_name String
 }
 
-
+model geo_areas {
+    index BigInt @id
+    geo_level String
+    dguid String
+    pruid Float
+    geo_name String
+    land_area Float
+    coordinates Json
+    
+}

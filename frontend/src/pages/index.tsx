@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Head from "next/head";
 import dynamic from "next/dynamic";
 import { trpc } from "../utils/trpc";
@@ -22,6 +22,10 @@ const Home: NextPage = () => {
   const { data: geo_name } = trpc.useQuery([
     "geoNames.getGeoNameByDGUID",
     { dguid: selectedDGUID },
+  ]);
+  const { data: provinces } = trpc.useQuery([
+    "geoAreas.getAllProvinces",
+    { geo_level: "provinces" },
   ]);
 
   return (
