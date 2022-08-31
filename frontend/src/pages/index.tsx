@@ -16,11 +16,11 @@ const Home: NextPage = () => {
   const [selectedDGUID, setSelectedDGUID] = useState("2021A000235");
 
   const { data: ageData } = trpc.useQuery([
-    "example.getAgeData",
+    "ageData.getAgeDataByDGUID",
     { dguid: selectedDGUID },
   ]);
   const { data: geo_name } = trpc.useQuery([
-    "example.getGeoName",
+    "geoNames.getGeoNameByDGUID",
     { dguid: selectedDGUID },
   ]);
 
