@@ -1,6 +1,10 @@
 import { createRouter } from "./context";
 import { z } from "zod";
 
+function onlyUnique(value: any, index: any, self: any) {
+  return self.indexOf(value) === index;
+}
+
 export const exampleRouter = createRouter()
   .query("hello", {
     input: z
@@ -16,12 +20,12 @@ export const exampleRouter = createRouter()
   })
   .query("getAgeData", {
     input: z.object({
-      geo_name: z.string(),
+      dguid: z.string(),
     }),
     async resolve({ ctx, input }) {
-      return await ctx.prisma.age_groups.findFirst({
+      const data: any = await ctx.prisma.age_groups.findFirst({
         where: {
-          geo_name: input.geo_name,
+          dguid: input.dguid,
         },
         select: {
           male_0_to_4_years: true,
@@ -68,5 +72,24 @@ export const exampleRouter = createRouter()
           female_100_years_and_over: true,
         },
       });
+      const new_data: any[] = [];
+
+      Object.entries(data).forEach((key, value) => {
+        const list: string[] = key[0].split("_");
+        list.shift();
+        const age = list.join(" ");
+        const entry = { name: age, male: 0, female: 0 };
+
+        new_data.push(entry);
+      });
+
+      // console.log(onlyUnique())
+
+      // Object.entries(data).forEach((key, value) => {
+      //   const list: string[] = key[0].split("_");
+      //   list.shift();
+      //   const age: any = list.join(" ");
+      // });
+      return data;
     },
   });

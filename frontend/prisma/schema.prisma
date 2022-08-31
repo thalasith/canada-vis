@@ -13,32 +13,7 @@ datasource db {
 
 model age_groups {
     index BigInt @id 
-    census_year BigInt
     dguid String
-    alt_geo_code BigInt
-    geo_level String
-    geo_name String
-    total_0_to_4_years Float
-    total_10_to_14_years Float
-    total_100_years_and_over Float
-    total_15_to_19_years Float
-    total_20_to_24_years Float
-    total_25_to_29_years Float
-    total_30_to_34_years Float
-    total_35_to_39_years Float
-    total_40_to_44_years Float
-    total_45_to_49_years Float
-    total_5_to_9_years Float
-    total_50_to_54_years Float
-    total_55_to_59_years Float
-    total_60_to_64_years Float
-    total_65_to_69_years Float
-    total_70_to_74_years Float
-    total_75_to_79_years Float
-    total_80_to_84_years Float
-    total_85_to_89_years Float
-    total_90_to_94_years Float
-    total_95_to_99_years Float
     male_0_to_4_years Float
     male_10_to_14_years Float
     male_100_years_and_over Float
@@ -82,3 +57,13 @@ model age_groups {
     female_90_to_94_years Float
     female_95_to_99_years Float
 }
+
+model geo_names {
+    index BigInt @id 
+    dguid String
+    alt_geo_code BigInt
+    geo_level String
+    geo_name String
+}
+
+

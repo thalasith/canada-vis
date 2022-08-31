@@ -13,12 +13,13 @@ const Map = dynamic(() => import("../components/Map/index"), {
 });
 
 const Home: NextPage = () => {
-  const [selectedGeo, setSelectedGeo] = useState("British Columbia");
+  const [selectedDGUID, setSelectedDGUID] = useState("2021A000235");
 
   const { data: ageData } = trpc.useQuery([
     "example.getAgeData",
-    { geo_name: selectedGeo },
+    { dguid: selectedDGUID },
   ]);
+  console.log(ageData);
 
   return (
     <>
@@ -30,8 +31,8 @@ const Home: NextPage = () => {
 
       <main className="container mx-auto flex flex-col items-center justify-center min-h-screen p-4">
         <div className="w-3/4 h-1/2">
-          {selectedGeo}
-          <Map setSelectedGeo={setSelectedGeo} />
+          {selectedDGUID}
+          <Map setSelectedDGUID={setSelectedDGUID} />
         </div>
         {/* <ResponsiveContainer width="100%" height="100%"> */}
         <div className="w-3/4 h-1/2">

@@ -18,10 +18,10 @@ const GeoJSONData: GeoJSON.Feature = {
 interface Props {
   setZoomLevel: (arg0: any) => void;
   data: typeof GeoJSONData;
-  setSelectedGeo: (arg0: any) => void;
+  setSelectedDGUID: (arg0: any) => void;
 }
 
-const OverLays = ({ setZoomLevel, data, setSelectedGeo }: Props) => {
+const OverLays = ({ setZoomLevel, data, setSelectedDGUID }: Props) => {
   const mapEvents = useMapEvents({
     zoomstart: () => {
       setZoomLevel(mapEvents.getZoom());
@@ -37,7 +37,8 @@ const OverLays = ({ setZoomLevel, data, setSelectedGeo }: Props) => {
     });
   };
   const handleClick = (event: any) => {
-    setSelectedGeo(event.target.feature.properties.geo_name);
+    // console.log(event.target.feature.properties);
+    setSelectedDGUID(event.target.feature.properties.DGUID);
   };
 
   const onMouseOver = (event: any) => {
@@ -61,7 +62,7 @@ const OverLays = ({ setZoomLevel, data, setSelectedGeo }: Props) => {
   );
 };
 
-const Map = ({ setSelectedGeo }: any) => {
+const Map = ({ setSelectedDGUID }: any) => {
   const [zoomLevel, setZoomLevel] = useState(3); // initial zoom level provided for MapContainer
   const [data, setData] = useState<any>(provinces); //
 
@@ -93,7 +94,7 @@ const Map = ({ setSelectedGeo }: any) => {
           setZoomLevel={setZoomLevel}
           data={data.features}
           key={zoomLevel}
-          setSelectedGeo={setSelectedGeo}
+          setSelectedDGUID={setSelectedDGUID}
         />
       </MapContainer>
     </div>
