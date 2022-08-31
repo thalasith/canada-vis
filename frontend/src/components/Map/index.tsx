@@ -21,6 +21,8 @@ interface Props {
   setSelectedDGUID: (arg0: any) => void;
 }
 
+const geo_json_css = { color: "#D62618", weight: 1 };
+
 const OverLays = ({ setZoomLevel, data, setSelectedDGUID }: Props) => {
   const mapEvents = useMapEvents({
     zoomstart: () => {
@@ -37,7 +39,6 @@ const OverLays = ({ setZoomLevel, data, setSelectedDGUID }: Props) => {
     });
   };
   const handleClick = (event: any) => {
-    // console.log(event.target.feature.properties);
     setSelectedDGUID(event.target.feature.properties.DGUID);
   };
 
@@ -48,17 +49,11 @@ const OverLays = ({ setZoomLevel, data, setSelectedDGUID }: Props) => {
   };
 
   const resetHighlight = (event: any) => {
-    event.target.setStyle({
-      color: "red",
-    });
+    event.target.setStyle(geo_json_css);
   };
 
   return (
-    <GeoJSON
-      data={data}
-      style={{ color: "red" }}
-      onEachFeature={onEachFeature}
-    />
+    <GeoJSON data={data} style={geo_json_css} onEachFeature={onEachFeature} />
   );
 };
 
@@ -68,7 +63,6 @@ const Map = ({ setSelectedDGUID }: any) => {
 
   useEffect(() => {
     const handleData = () => {
-      console.log("zoomLevel", zoomLevel);
       if (zoomLevel <= 2) {
         setData(provinces);
       } else {

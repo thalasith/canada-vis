@@ -19,6 +19,10 @@ const Home: NextPage = () => {
     "example.getAgeData",
     { dguid: selectedDGUID },
   ]);
+  const { data: geo_name } = trpc.useQuery([
+    "example.getGeoName",
+    { dguid: selectedDGUID },
+  ]);
 
   return (
     <>
@@ -30,12 +34,11 @@ const Home: NextPage = () => {
 
       <main className="container mx-auto flex flex-col items-center justify-center min-h-screen p-4">
         <div className="w-3/4 h-1/2">
-          {selectedDGUID}
           <Map setSelectedDGUID={setSelectedDGUID} />
         </div>
         {/* <ResponsiveContainer width="100%" height="100%"> */}
         <div className="w-3/4 h-1/2">
-          Hello
+          Hello {geo_name}
           <TestChart ageData={ageData} />
         </div>
       </main>

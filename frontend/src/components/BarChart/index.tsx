@@ -1,14 +1,4 @@
-import {
-  BarChart,
-  Bar,
-  Cell,
-  XAxis,
-  YAxis,
-  CartesianGrid,
-  Tooltip,
-  Legend,
-  ResponsiveContainer,
-} from "recharts";
+import { BarChart, Bar, XAxis, YAxis, Tooltip, Legend } from "recharts";
 
 interface AgeDataShape {
   name: string;
@@ -30,11 +20,16 @@ const TestChart = ({ ageData }: any) => {
           bottom: 5,
         }}
       >
-        <CartesianGrid strokeDasharray="3 3" />
         <XAxis dataKey="name" />
-        <YAxis />
+        <YAxis
+          tickFormatter={(tick) => {
+            return tick.toLocaleString("en");
+          }}
+        />
         <Tooltip
-          formatter={(value: any) => new Intl.NumberFormat("en").format(value)}
+          formatter={(value: number) =>
+            new Intl.NumberFormat("en").format(value)
+          }
         />
         <Legend />
         <Bar dataKey="male" stackId="a" fill="#8884d8" />

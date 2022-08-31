@@ -6,16 +6,15 @@ function onlyUnique(value: any, index: any, self: any) {
 }
 
 export const exampleRouter = createRouter()
-  .query("hello", {
-    input: z
-      .object({
-        text: z.string().nullish(),
-      })
-      .nullish(),
-    resolve({ input }) {
-      return {
-        greeting: `Hello ${input?.text ?? "world"}`,
-      };
+  .query("getGeoName", {
+    input: z.object({
+      dguid: z.string(),
+    }),
+    async resolve({ ctx, input }) {
+      const geo_name = await ctx.prisma.geo_names.findFirst({
+        where: { dguid: input.dguid },
+      });
+      return geo_name?.geo_name;
     },
   })
   .query("getAgeData", {
@@ -98,13 +97,11 @@ export const exampleRouter = createRouter()
       }, []);
 
       Object.entries(data).forEach(([key, value]) => {
-        // console.log(value);
         const list: string[] = key.split("_");
         const gender = list[0];
         list.shift();
         const age = list.join(" ");
         const entry = results.find((obj: any) => obj.name === age);
-
         if (gender === "male") {
           entry.male = value;
         } else if (gender === "female") {
