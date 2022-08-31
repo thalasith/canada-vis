@@ -19,7 +19,6 @@ const Home: NextPage = () => {
     "example.getAgeData",
     { dguid: selectedDGUID },
   ]);
-  console.log(ageData);
 
   return (
     <>
@@ -37,7 +36,7 @@ const Home: NextPage = () => {
         {/* <ResponsiveContainer width="100%" height="100%"> */}
         <div className="w-3/4 h-1/2">
           Hello
-          {/* <TestChart ageData={ageData} /> */}
+          <TestChart ageData={ageData} />
         </div>
       </main>
     </>

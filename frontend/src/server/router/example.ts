@@ -74,8 +74,8 @@ export const exampleRouter = createRouter()
       });
       const new_data: any[] = [];
 
-      Object.entries(data).forEach((key, value) => {
-        const list: string[] = key[0].split("_");
+      Object.keys(data).forEach((key) => {
+        const list: string[] = key.split("_");
         list.shift();
         const age = list.join(" ");
         const entry = { name: age, male: 0, female: 0 };
@@ -83,13 +83,35 @@ export const exampleRouter = createRouter()
         new_data.push(entry);
       });
 
-      // console.log(onlyUnique())
+      const results = new_data.reduce((unique, o) => {
+        if (
+          !unique.some(
+            (obj: any) =>
+              obj.name === o.name &&
+              obj.male === o.male &&
+              obj.female === o.female
+          )
+        ) {
+          unique.push(o);
+        }
+        return unique;
+      }, []);
 
-      // Object.entries(data).forEach((key, value) => {
-      //   const list: string[] = key[0].split("_");
-      //   list.shift();
-      //   const age: any = list.join(" ");
-      // });
-      return data;
+      Object.entries(data).forEach(([key, value]) => {
+        // console.log(value);
+        const list: string[] = key.split("_");
+        const gender = list[0];
+        list.shift();
+        const age = list.join(" ");
+        const entry = results.find((obj: any) => obj.name === age);
+
+        if (gender === "male") {
+          entry.male = value;
+        } else if (gender === "female") {
+          entry.female = value;
+        }
+      });
+
+      return results;
     },
   });
