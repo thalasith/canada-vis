@@ -15,10 +15,11 @@ const geo_json_css = { color: "#D62618", weight: 1 };
 
 const OverLays = ({ setZoomLevel, data, setSelectedDGUID }: Props) => {
   const mapEvents = useMapEvents({
-    zoomstart: () => {
+    zoomend: () => {
       setZoomLevel(mapEvents.getZoom());
     },
   });
+
   // TO DO: Change layer away from any to GeoJSON.Feature
 
   const onEachFeature = (feature: Feature, layer: any) => {
@@ -49,25 +50,29 @@ const OverLays = ({ setZoomLevel, data, setSelectedDGUID }: Props) => {
 
 const Map = ({ setSelectedDGUID }: any) => {
   const [zoomLevel, setZoomLevel] = useState(3); // initial zoom level provided for MapContainer
-  const { data: provinces } = trpc.useQuery([
-    "geoAreas.getAllProvinces",
-    { geo_level: "provinces" },
+  const [shownData, setShownData] = useState("province");
+  useEffect(() => {
+    if (zoomLevel <= 3) {
+      setShownData("province");
+      geoAreasQuery.refetch();
+    } else {
+      setShownData("census division");
+      geoAreasQuery.refetch();
+    }
+  }, [zoomLevel]);
+
+  const geoAreasQuery = trpc.useQuery([
+    "geoAreas.getAllGeoAreas",
+    { geo_level: shownData },
   ]);
-  // const [data, setData] = useState<any>(provinces); //
 
-  // useEffect(() => {
-  //   const handleData = () => {
-  //     if (zoomLevel <= 2) {
-  //       setData(provinces);
-  //     } else {
-  //       setData(censusDivision);
-  //     }
-  //   };
-  //   setData(provinces);
-  //   handleData();
-  // }, [zoomLevel]);
-  const overlays = provinces || { type: "FeatureCollection", features: [] };
-
+  const overlays = geoAreasQuery.data || {
+    type: "FeatureCollection",
+    features: [],
+  };
+  if (geoAreasQuery.isLoading) {
+    return <div>Loading...</div>;
+  }
   return (
     <div className="leaflet-container">
       <MapContainer

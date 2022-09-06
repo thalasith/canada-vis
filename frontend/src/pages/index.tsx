@@ -23,10 +23,6 @@ const Home: NextPage = () => {
     "geoNames.getGeoNameByDGUID",
     { dguid: selectedDGUID },
   ]);
-  const { data: provinces } = trpc.useQuery([
-    "geoAreas.getAllProvinces",
-    { geo_level: "provinces" },
-  ]);
 
   return (
     <>
