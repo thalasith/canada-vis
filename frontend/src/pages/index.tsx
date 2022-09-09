@@ -3,6 +3,7 @@ import { useState } from "react";
 import Head from "next/head";
 import dynamic from "next/dynamic";
 import { trpc } from "../utils/trpc";
+import Header from "../components/Header";
 
 const TestChart = dynamic(() => import("../components/BarChart/index"), {
   ssr: false,
@@ -32,15 +33,17 @@ const Home: NextPage = () => {
         <link rel="icon" href="/man.png" />
       </Head>
 
+      <Header />
       <main className="container mx-auto flex flex-col items-center justify-center min-h-screen p-4">
-        <div className="w-3/4 h-1/2">
+        <div className="grid grid-cols-2">
           <Map setSelectedDGUID={setSelectedDGUID} />
+          <div className="mx-3">
+            <p className="text-xl">Currently viewing: {geo_name}</p>
+            <TestChart data={ageData} />
+          </div>
         </div>
         {/* <ResponsiveContainer width="100%" height="100%"> */}
-        <div className="w-3/4 h-1/2">
-          Hello {geo_name}
-          <TestChart ageData={ageData} />
-        </div>
+        <div className="w-3/4 h-1/2"></div>
       </main>
     </>
   );

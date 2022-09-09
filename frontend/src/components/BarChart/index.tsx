@@ -1,12 +1,12 @@
 import { BarChart, Bar, XAxis, YAxis, Tooltip, Legend } from "recharts";
 
-const TestChart = ({ ageData }: any) => {
+const TestChart = ({ data }: any) => {
   return (
     <div className="w-full">
       <BarChart
         width={1000}
         height={300}
-        data={ageData}
+        data={data}
         margin={{
           top: 20,
           right: 30,

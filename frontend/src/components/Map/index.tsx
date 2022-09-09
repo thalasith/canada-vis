@@ -1,5 +1,11 @@
-import { useState, useEffect, MouseEvent } from "react";
-import { MapContainer, TileLayer, useMapEvents, GeoJSON } from "react-leaflet";
+import { useState, useEffect } from "react";
+import {
+  MapContainer,
+  TileLayer,
+  useMapEvents,
+  GeoJSON,
+  useMap,
+} from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import { trpc } from "../../utils/trpc";
 import { Feature, GeoJsonObject } from "geojson";
@@ -20,7 +26,8 @@ const OverLays = ({ setZoomLevel, data, setSelectedDGUID }: Props) => {
     },
   });
 
-  // TO DO: Change layer away from any to GeoJSON.Feature
+  const map = useMap();
+  console.log(useMap().getCenter());
 
   const onEachFeature = (feature: Feature, layer: any) => {
     layer.on({
@@ -70,9 +77,7 @@ const Map = ({ setSelectedDGUID }: any) => {
     type: "FeatureCollection",
     features: [],
   };
-  if (geoAreasQuery.isLoading) {
-    return <div>Loading...</div>;
-  }
+
   return (
     <div className="leaflet-container">
       <MapContainer
@@ -84,12 +89,14 @@ const Map = ({ setSelectedDGUID }: any) => {
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         />
-        <OverLays
-          setZoomLevel={setZoomLevel}
-          data={overlays}
-          key={zoomLevel}
-          setSelectedDGUID={setSelectedDGUID}
-        />
+        {!geoAreasQuery.isLoading && (
+          <OverLays
+            setZoomLevel={setZoomLevel}
+            data={overlays}
+            key={zoomLevel}
+            setSelectedDGUID={setSelectedDGUID}
+          />
+        )}
       </MapContainer>
     </div>
   );
