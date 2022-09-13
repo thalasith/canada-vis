@@ -74,5 +74,35 @@ model geo_areas {
     geo_name String
     land_area Float
     coordinates Json
-    
+}
+
+model income_groups {
+    index BigInt @id
+    dguid String
+    male_10000_to_19999 Float
+    male_100000_to_149999 Float
+    male_150000_and_over Float
+    male_20000_to_29999 Float
+    male_30000_to_39999 Float
+    male_40000_to_49999 Float
+    male_50000_to_59999 Float
+    male_60000_to_69999 Float
+    male_70000_to_79999 Float
+    male_80000_to_89999 Float
+    male_90000_to_99999 Float
+    male_under_10000 Float
+    male_without_total_income Float
+    female_10000_to_19999 Float
+    female_100000_to_149999 Float
+    female_150000_and_over Float
+    female_20000_to_29999 Float
+    female_30000_to_39999 Float
+    female_40000_to_49999 Float
+    female_50000_to_59999 Float
+    female_60000_to_69999 Float
+    female_70000_to_79999 Float
+    female_80000_to_89999 Float
+    female_90000_to_99999 Float
+    female_under_10000 Float
+    female_without_total_income Float
 }
