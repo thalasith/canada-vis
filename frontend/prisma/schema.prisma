@@ -106,3 +106,14 @@ model income_groups {
     female_under_10000 Float
     female_without_total_income Float
 }
+
+model summary {
+    index BigInt @id
+    dguid String
+    total_average_household_size Float
+    total_median_age_of_the_population Float
+    total_median_employment_income_in_2020_among_recipients Float
+    total_population_density_per_square_kilometre Float
+    total_population_percentage_change_2016_to_2021 Float
+    total_population_2021 Float
+}

@@ -24,6 +24,11 @@ const Home: NextPage = () => {
     "geoNames.getGeoNameByDGUID",
     { dguid: selectedDGUID },
   ]);
+  const { data: summary } = trpc.useQuery([
+    "summary.getSummaryByDGUID",
+    { dguid: selectedDGUID },
+  ]);
+  console.log("summary", summary);
 
   return (
     <>
@@ -39,8 +44,25 @@ const Home: NextPage = () => {
           <Map setSelectedDGUID={setSelectedDGUID} />
           <div className="mx-3">
             <p className="text-xl">Currently viewing: {geo_name}</p>
-            <TestChart data={ageData} />
+            <p className="">Population: {summary?.total_population_2021}</p>
+            <p className="">
+              Population Growth since 2016:{" "}
+              {summary?.total_population_percentage_change_2016_to_2021} %
+            </p>
+            <p className="">
+              Population Density:{" "}
+              {summary?.total_population_density_per_square_kilometre}
+            </p>
+            <p className="">
+              Median Income: ${" "}
+              {summary?.total_median_employment_income_in_2020_among_recipients}
+            </p>
+            <p className="">
+              Average Householdsize: {summary?.total_average_household_size}
+            </p>
+            <p>Median Age: {summary?.total_median_age_of_the_population}</p>
           </div>
+          <TestChart data={ageData} />
         </div>
         {/* <ResponsiveContainer width="100%" height="100%"> */}
         <div className="w-3/4 h-1/2"></div>

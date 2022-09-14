@@ -27,7 +27,7 @@ const OverLays = ({ setZoomLevel, data, setSelectedDGUID }: Props) => {
   });
 
   const map = useMap();
-  console.log(useMap().getCenter());
+  // console.log(useMap().getCenter());
 
   const onEachFeature = (feature: Feature, layer: any) => {
     layer.on({
