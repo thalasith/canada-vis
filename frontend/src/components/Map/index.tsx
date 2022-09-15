@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import {
   MapContainer,
   TileLayer,
@@ -6,67 +6,73 @@ import {
   GeoJSON,
   useMap,
 } from "react-leaflet";
-import "leaflet/dist/leaflet.css";
 import { trpc } from "../../utils/trpc";
+import "leaflet/dist/leaflet.css";
 import { Feature, GeoJsonObject } from "geojson";
+import { layerGroup } from "leaflet";
 
 interface Props {
   setZoomLevel: (arg0: any) => void;
   data: GeoJsonObject;
-  // Feature[];
+  selectedDGUID: string;
   setSelectedDGUID: (arg0: any) => void;
 }
 
 const geo_json_css = { color: "#D62618", weight: 1 };
 
-const OverLays = ({ setZoomLevel, data, setSelectedDGUID }: Props) => {
+const selected_geo_json_css = { color: "green", weight: 1 };
+
+const OverLays = ({
+  setZoomLevel,
+  data,
+  setSelectedDGUID,
+  selectedDGUID,
+}: Props) => {
   const mapEvents = useMapEvents({
     zoomend: () => {
       setZoomLevel(mapEvents.getZoom());
     },
   });
+  const geoJsonRef = useRef<any>(null);
 
   const map = useMap();
-  // console.log(useMap().getCenter());
 
   const onEachFeature = (feature: Feature, layer: any) => {
     layer.on({
-      mouseover: onMouseOver,
-      mouseout: resetHighlight,
       click: handleClick,
     });
+
+    // Set style if selectedDGUID is equal to feature.properties.dguid
+    layer.setStyle(
+      feature.properties?.dguid === selectedDGUID
+        ? selected_geo_json_css
+        : geo_json_css
+    );
   };
+
   const handleClick = (event: any) => {
-    setSelectedDGUID(event.target.feature.properties.dguid);
+    if (!geoJsonRef.current) return;
+    geoJsonRef.current.setStyle(geo_json_css);
+    setSelectedDGUID(event.target.feature.properties?.dguid);
+    event.target.setStyle(selected_geo_json_css);
   };
 
-  const onMouseOver = (event: any) => {
-    event.target.setStyle({
-      color: "white",
-    });
-  };
-
-  const resetHighlight = (event: any) => {
-    event.target.setStyle(geo_json_css);
-  };
-
-  return (
-    <GeoJSON data={data} style={geo_json_css} onEachFeature={onEachFeature} />
-  );
+  return <GeoJSON data={data} onEachFeature={onEachFeature} ref={geoJsonRef} />;
 };
 
-const Map = ({ setSelectedDGUID }: any) => {
-  const [zoomLevel, setZoomLevel] = useState(3); // initial zoom level provided for MapContainer
+const Map = ({
+  setSelectedDGUID,
+  selectedDGUID,
+  selectedGeographicUnit,
+}: any) => {
+  const [zoomLevel, setZoomLevel] = useState(3);
   const [shownData, setShownData] = useState("province");
+
   useEffect(() => {
-    if (zoomLevel <= 3) {
-      setShownData("province");
-      geoAreasQuery.refetch();
-    } else {
-      setShownData("census division");
-      geoAreasQuery.refetch();
-    }
-  }, [zoomLevel]);
+    setShownData(selectedGeographicUnit);
+    console.log(shownData);
+    geoAreasQuery.refetch();
+  }, [selectedGeographicUnit, shownData]);
 
   const geoAreasQuery = trpc.useQuery([
     "geoAreas.getAllGeoAreas",
@@ -79,9 +85,12 @@ const Map = ({ setSelectedDGUID }: any) => {
   };
 
   return (
-    <div className="leaflet-container">
+    <div
+      className="leaflet-container"
+      style={{ height: "400px", width: "100%" }}
+    >
       <MapContainer
-        center={[56.1304, -106.3468]}
+        center={[58.632872646610736, -106.3468]}
         zoom={zoomLevel}
         scrollWheelZoom={true}
       >
@@ -95,6 +104,7 @@ const Map = ({ setSelectedDGUID }: any) => {
             data={overlays}
             key={zoomLevel}
             setSelectedDGUID={setSelectedDGUID}
+            selectedDGUID={selectedDGUID}
           />
         )}
       </MapContainer>

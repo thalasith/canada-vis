@@ -1,8 +1,16 @@
-import { BarChart, Bar, XAxis, YAxis, Tooltip, Legend } from "recharts";
+import {
+  BarChart,
+  Bar,
+  XAxis,
+  YAxis,
+  Tooltip,
+  Legend,
+  ResponsiveContainer,
+} from "recharts";
 
 const TestChart = ({ data }: any) => {
   return (
-    <div className="w-full">
+    <ResponsiveContainer width="95%" height={400}>
       <BarChart
         width={1000}
         height={300}
@@ -29,7 +37,7 @@ const TestChart = ({ data }: any) => {
         <Bar dataKey="male" stackId="a" fill="#D62618" />
         <Bar dataKey="female" stackId="a" fill="#FFBABA" />
       </BarChart>
-    </div>
+    </ResponsiveContainer>
   );
 };
 

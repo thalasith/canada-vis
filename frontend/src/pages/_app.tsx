@@ -6,7 +6,7 @@ import superjson from "superjson";
 import "../styles/globals.css";
 
 const MyApp: AppType = ({ Component, pageProps }) => {
-  return <Component {...pageProps} />;
+  return <Component {...pageProps} className="test" />;
 };
 
 const getBaseUrl = () => {

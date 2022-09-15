@@ -4,6 +4,7 @@ import Head from "next/head";
 import dynamic from "next/dynamic";
 import { trpc } from "../utils/trpc";
 import Header from "../components/Header";
+import { ResponsiveContainer } from "recharts";
 
 const TestChart = dynamic(() => import("../components/BarChart/index"), {
   ssr: false,
@@ -15,6 +16,8 @@ const Map = dynamic(() => import("../components/Map/index"), {
 
 const Home: NextPage = () => {
   const [selectedDGUID, setSelectedDGUID] = useState("2021A000235");
+  const [selectedGeographicUnit, setSelectedGeographicUnit] =
+    useState("province");
 
   const { data: ageData } = trpc.useQuery([
     "ageData.getAgeDataByDGUID",
@@ -28,7 +31,6 @@ const Home: NextPage = () => {
     "summary.getSummaryByDGUID",
     { dguid: selectedDGUID },
   ]);
-  console.log("summary", summary);
 
   return (
     <>
@@ -39,10 +41,33 @@ const Home: NextPage = () => {
       </Head>
 
       <Header />
-      <main className="container mx-auto flex flex-col items-center justify-center min-h-screen p-4">
+      <main className="container mx-auto min-h-screen min-v-screen p-4 ">
         <div className="grid grid-cols-2">
-          <Map setSelectedDGUID={setSelectedDGUID} />
-          <div className="mx-3">
+          <div className="m-1 p-2 bg-white">
+            <div className="relative w-full">
+              <select
+                onChange={(e) => {
+                  setSelectedGeographicUnit(e.target.value);
+                }}
+                defaultValue={""}
+                className="bg-gray-50 border border-gray-300 mb-2 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              >
+                <option value="">Census Geographic Units</option>
+                <option value="province">Provincial</option>
+                <option value="census division">Census Divisions</option>
+                <option value="census subdivision">Census Sub Divisions</option>
+              </select>
+              <div>
+                <Map
+                  setSelectedDGUID={setSelectedDGUID}
+                  selectedDGUID={selectedDGUID}
+                  selectedGeographicUnit={selectedGeographicUnit}
+                />
+              </div>
+            </div>
+          </div>
+
+          <div className="m-1 p-2 bg-white">
             <p className="text-xl">Currently viewing: {geo_name}</p>
             <p className="">Population: {summary?.total_population_2021}</p>
             <p className="">
@@ -62,10 +87,12 @@ const Home: NextPage = () => {
             </p>
             <p>Median Age: {summary?.total_median_age_of_the_population}</p>
           </div>
-          <TestChart data={ageData} />
+          <div className="m-1 p-2 bg-white">
+            <p className="text-xl text-center">Age Chart</p>
+            <TestChart data={ageData} />
+          </div>
         </div>
         {/* <ResponsiveContainer width="100%" height="100%"> */}
-        <div className="w-3/4 h-1/2"></div>
       </main>
     </>
   );
