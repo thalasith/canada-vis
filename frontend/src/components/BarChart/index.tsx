@@ -8,7 +8,7 @@ import {
   ResponsiveContainer,
 } from "recharts";
 
-const TestChart = ({ data }: any) => {
+const TestChart = ({ data, key1, key2 }: any) => {
   return (
     <ResponsiveContainer width="95%" height={400}>
       <BarChart
@@ -34,8 +34,8 @@ const TestChart = ({ data }: any) => {
           }
         />
         <Legend />
-        <Bar dataKey="male" stackId="a" fill="#D62618" />
-        <Bar dataKey="female" stackId="a" fill="#FFBABA" />
+        <Bar dataKey={key1} stackId="a" fill="#D62618" />
+        <Bar dataKey={key2} stackId="a" fill="#FFBABA" />
       </BarChart>
     </ResponsiveContainer>
   );

@@ -9,7 +9,6 @@ import {
 import { trpc } from "../../utils/trpc";
 import "leaflet/dist/leaflet.css";
 import { Feature, GeoJsonObject } from "geojson";
-import { layerGroup } from "leaflet";
 
 interface Props {
   setZoomLevel: (arg0: any) => void;
@@ -18,9 +17,9 @@ interface Props {
   setSelectedDGUID: (arg0: any) => void;
 }
 
-const geo_json_css = { color: "#D62618", weight: 1 };
+const geo_json_css = { color: "#FFBABA", weight: 1 };
 
-const selected_geo_json_css = { color: "green", weight: 1 };
+const selected_geo_json_css = { color: "#D62618", weight: 1 };
 
 const OverLays = ({
   setZoomLevel,

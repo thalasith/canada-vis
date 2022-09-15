@@ -23,6 +23,11 @@ const Home: NextPage = () => {
     "ageData.getAgeDataByDGUID",
     { dguid: selectedDGUID },
   ]);
+  const { data: incomeData } = trpc.useQuery([
+    "incomeData.getIncomeDataByDGUID",
+    { dguid: selectedDGUID },
+  ]);
+  console.log(incomeData);
   const { data: geo_name } = trpc.useQuery([
     "geoNames.getGeoNameByDGUID",
     { dguid: selectedDGUID },
@@ -43,7 +48,7 @@ const Home: NextPage = () => {
       <Header />
       <main className="container mx-auto min-h-screen min-v-screen p-4 ">
         <div className="grid grid-cols-2">
-          <div className="m-1 p-2 bg-white">
+          <div className="m-1 p-2 bg-white rounded">
             <div className="relative w-full">
               <select
                 onChange={(e) => {
@@ -67,32 +72,44 @@ const Home: NextPage = () => {
             </div>
           </div>
 
-          <div className="m-1 p-2 bg-white">
+          <div className="m-1 p-2 bg-white rounded">
             <p className="text-xl">Currently viewing: {geo_name}</p>
-            <p className="">Population: {summary?.total_population_2021}</p>
+            <p className="">
+              Population:{" "}
+              {summary?.total_population_2021.toLocaleString("en-US", {
+                maximumFractionDigits: 2,
+              })}
+            </p>
             <p className="">
               Population Growth since 2016:{" "}
-              {summary?.total_population_percentage_change_2016_to_2021} %
+              {summary?.total_population_percentage_change_2016_to_2021}%
             </p>
             <p className="">
               Population Density:{" "}
-              {summary?.total_population_density_per_square_kilometre}
+              {summary?.total_population_density_per_square_kilometre} per
+              square kilometre
             </p>
             <p className="">
-              Median Income: ${" "}
-              {summary?.total_median_employment_income_in_2020_among_recipients}
+              Median Income: $
+              {summary?.total_median_employment_income_in_2020_among_recipients.toLocaleString(
+                "en-US",
+                { maximumFractionDigits: 2 }
+              )}
             </p>
             <p className="">
               Average Householdsize: {summary?.total_average_household_size}
             </p>
             <p>Median Age: {summary?.total_median_age_of_the_population}</p>
           </div>
-          <div className="m-1 p-2 bg-white">
+          <div className="m-1 p-2 bg-white rounded">
             <p className="text-xl text-center">Age Chart</p>
-            <TestChart data={ageData} />
+            <TestChart data={ageData} key1="male" key2="female" />
+          </div>
+          <div className="m-1 p-2 bg-white rounded">
+            <p className="text-xl text-center">Income Chart</p>
+            <TestChart data={incomeData} key1="male" key2="female" />
           </div>
         </div>
-        {/* <ResponsiveContainer width="100%" height="100%"> */}
       </main>
     </>
   );
