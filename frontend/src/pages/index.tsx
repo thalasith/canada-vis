@@ -37,6 +37,8 @@ const Home: NextPage = () => {
     { dguid: selectedDGUID },
   ]);
 
+  // const { data: test } = trpc.useQuery(["summary.getIncomeRanks"]);
+  // console.log(test);
   return (
     <>
       <Head>
@@ -60,7 +62,9 @@ const Home: NextPage = () => {
                 <option value="">Census Geographic Units</option>
                 <option value="province">Provincial</option>
                 <option value="census division">Census Divisions</option>
-                <option value="census subdivision">Census Sub Divisions</option>
+                <option value="census sub division">
+                  Census Sub Divisions
+                </option>
               </select>
               <div>
                 <Map
