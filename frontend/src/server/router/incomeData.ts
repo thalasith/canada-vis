@@ -21,6 +21,9 @@ export const incomeDataRouter = createRouter().query("getIncomeDataByDGUID", {
     Object.entries(data).forEach(([key, value]: any) => {
       const list: string[] = key.split("_");
       list.shift();
+      if (typeof value === "number") {
+        total += value;
+      }
 
       const income_group = list.join(" ");
       const entry = { name: income_group, male: 0, female: 0 };

@@ -27,7 +27,7 @@ const Home: NextPage = () => {
     "incomeData.getIncomeDataByDGUID",
     { dguid: selectedDGUID },
   ]);
-  console.log(incomeData);
+
   const { data: geo_name } = trpc.useQuery([
     "geoNames.getGeoNameByDGUID",
     { dguid: selectedDGUID },
@@ -72,34 +72,36 @@ const Home: NextPage = () => {
             </div>
           </div>
 
-          <div className="m-1 p-2 bg-white rounded">
-            <p className="text-xl">Currently viewing: {geo_name}</p>
-            <p className="">
+          <div className="m-1 p-4 bg-white rounded">
+            <p className="text-xl font-bold">{geo_name} Summary</p>
+            <p className="mt-2">
               Population:{" "}
               {summary?.total_population_2021.toLocaleString("en-US", {
                 maximumFractionDigits: 2,
               })}
             </p>
-            <p className="">
+            <p className="my-1">
               Population Growth since 2016:{" "}
               {summary?.total_population_percentage_change_2016_to_2021}%
             </p>
-            <p className="">
+            <p className="my-1">
               Population Density:{" "}
               {summary?.total_population_density_per_square_kilometre} per
               square kilometre
             </p>
-            <p className="">
+            <p className="my-1">
               Median Income: $
               {summary?.total_median_employment_income_in_2020_among_recipients.toLocaleString(
                 "en-US",
                 { maximumFractionDigits: 2 }
               )}
             </p>
-            <p className="">
+            <p className="my-1">
               Average Householdsize: {summary?.total_average_household_size}
             </p>
-            <p>Median Age: {summary?.total_median_age_of_the_population}</p>
+            <p className="my-1">
+              Median Age: {summary?.total_median_age_of_the_population}
+            </p>
           </div>
           <div className="m-1 p-2 bg-white rounded">
             <p className="text-xl text-center">Age Chart</p>

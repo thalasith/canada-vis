@@ -1,11 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import {
-  MapContainer,
-  TileLayer,
-  useMapEvents,
-  GeoJSON,
-  useMap,
-} from "react-leaflet";
+import { MapContainer, TileLayer, useMapEvents, GeoJSON } from "react-leaflet";
 import { trpc } from "../../utils/trpc";
 import "leaflet/dist/leaflet.css";
 import { Feature, GeoJsonObject } from "geojson";
@@ -54,7 +48,14 @@ const OverLays = ({
     event.target.setStyle(selected_geo_json_css);
   };
 
-  return <GeoJSON data={data} onEachFeature={onEachFeature} ref={geoJsonRef} />;
+  return (
+    <GeoJSON
+      key={Math.random()}
+      data={data}
+      onEachFeature={onEachFeature}
+      ref={geoJsonRef}
+    />
+  );
 };
 
 const Map = ({
@@ -67,7 +68,6 @@ const Map = ({
 
   useEffect(() => {
     setShownData(selectedGeographicUnit);
-    console.log(shownData);
     geoAreasQuery.refetch();
   }, [selectedGeographicUnit, shownData]);
 
