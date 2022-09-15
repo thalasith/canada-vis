@@ -16,15 +16,15 @@ export const incomeDataRouter = createRouter().query("getIncomeDataByDGUID", {
       },
     });
     const new_data: any[] = [];
+    let total = 0;
 
-    Object.keys(data).forEach((key) => {
+    Object.entries(data).forEach(([key, value]: any) => {
       const list: string[] = key.split("_");
       list.shift();
 
       const income_group = list.join(" ");
       const entry = { name: income_group, male: 0, female: 0 };
       if (entry.name !== "") {
-        // console.log("yep");
         new_data.push(entry);
       }
     });
@@ -43,16 +43,16 @@ export const incomeDataRouter = createRouter().query("getIncomeDataByDGUID", {
       return unique;
     }, []);
 
-    Object.entries(data).forEach(([key, value]) => {
+    Object.entries(data).forEach(([key, value]: any) => {
       const list: string[] = key.split("_");
       const gender = list[0];
       list.shift();
       const income_group = list.join(" ");
       const entry = results.find((obj: any) => obj.name === income_group);
       if (gender === "male") {
-        entry.male = value;
+        entry.male = 100 * (value / total);
       } else if (gender === "female") {
-        entry.female = value;
+        entry.female = 100 * (value / total);
       }
     });
 

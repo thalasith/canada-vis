@@ -25,12 +25,13 @@ const TestChart = ({ data, key1, key2 }: any) => {
         <XAxis dataKey="name" />
         <YAxis
           tickFormatter={(tick) => {
-            return tick.toLocaleString("en");
+            return `${tick}%`;
           }}
         />
         <Tooltip
           formatter={(value: number) =>
-            new Intl.NumberFormat("en").format(value)
+            new Intl.NumberFormat("en").format(Math.round(100 * value) / 100) +
+            "%"
           }
         />
         <Legend />

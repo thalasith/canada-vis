@@ -59,11 +59,14 @@ export const ageDataRouter = createRouter().query("getAgeDataByDGUID", {
         female_100_years_and_over: true,
       },
     });
-    const new_data: any[] = [];
 
-    Object.keys(data).forEach((key) => {
+    const new_data: any[] = [];
+    let total = 0;
+
+    Object.entries(data).forEach(([key, value]: any) => {
       const list: string[] = key.split("_");
       list.shift();
+      total += value;
       const age = list.join(" ");
       const entry = { name: age, male: 0, female: 0 };
 
@@ -84,16 +87,17 @@ export const ageDataRouter = createRouter().query("getAgeDataByDGUID", {
       return unique;
     }, []);
 
-    Object.entries(data).forEach(([key, value]) => {
+    Object.entries(data).forEach(([key, value]: any) => {
       const list: string[] = key.split("_");
+
       const gender = list[0];
       list.shift();
       const age = list.join(" ");
       const entry = results.find((obj: any) => obj.name === age);
       if (gender === "male") {
-        entry.male = value;
+        entry.male = 100 * (value / total);
       } else if (gender === "female") {
-        entry.female = value;
+        entry.female = 100 * (value / total);
       }
     });
 

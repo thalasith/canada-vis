@@ -34,8 +34,6 @@ const OverLays = ({
   });
   const geoJsonRef = useRef<any>(null);
 
-  const map = useMap();
-
   const onEachFeature = (feature: Feature, layer: any) => {
     layer.on({
       click: handleClick,
