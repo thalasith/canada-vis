@@ -1,17 +1,17 @@
 dguid,alt_geo_code,geo_level,geo_name
-2021A000210,10,Province,Newfoundland and Labrador
-2021A000211,11,Province,Prince Edward Island
-2021A000212,12,Province,Nova Scotia
-2021A000213,13,Province,New Brunswick
-2021A000224,24,Province,Quebec
-2021A000235,35,Province,Ontario
-2021A000246,46,Province,Manitoba
-2021A000247,47,Province,Saskatchewan
-2021A000248,48,Province,Alberta
-2021A000259,59,Province,British Columbia
-2021A000260,60,Territory,Yukon
-2021A000261,61,Territory,Northwest Territories
-2021A000262,62,Territory,Nunavut
+2021A000210,10,province,Newfoundland and Labrador
+2021A000211,11,province,Prince Edward Island
+2021A000212,12,province,Nova Scotia
+2021A000213,13,province,New Brunswick
+2021A000224,24,province,Quebec
+2021A000235,35,province,Ontario
+2021A000246,46,province,Manitoba
+2021A000247,47,province,Saskatchewan
+2021A000248,48,province,Alberta
+2021A000259,59,province,British Columbia
+2021A000260,60,province,Yukon
+2021A000261,61,province,Northwest Territories
+2021A000262,62,province,Nunavut
 2021A00031001,1001,Census division,"Division No.  1, Census division (CDR)"
 2021A00031002,1002,Census division,"Division No.  2, Census division (CDR)"
 2021A00031003,1003,Census division,"Division No.  3, Census division (CDR)"

@@ -45,11 +45,17 @@ export const incomeDataRouter = createRouter().query("getIncomeDataByDGUID", {
       }
       return unique;
     }, []);
+    function parseItems([item, index, arr]: any) {
+      if (parseInt(item)) {
+        arr[index] = parseInt(item).toLocaleString("en-US");
+      }
+    }
 
     Object.entries(data).forEach(([key, value]: any) => {
       const list: string[] = key.split("_");
       const gender = list[0];
       list.shift();
+
       const income_group = list.join(" ");
       const entry = results.find((obj: any) => obj.name === income_group);
       if (gender === "male") {
@@ -61,7 +67,7 @@ export const incomeDataRouter = createRouter().query("getIncomeDataByDGUID", {
 
     const index = [12, 11, 0, 3, 4, 5, 6, 7, 8, 9, 10, 1, 2];
     const output = index.map((i) => results[i]);
-
+    console.log(output);
     return output;
   },
 });
