@@ -4,7 +4,6 @@ import Head from "next/head";
 import dynamic from "next/dynamic";
 import { trpc } from "../utils/trpc";
 import Header from "../components/Header";
-import { ResponsiveContainer } from "recharts";
 
 const TestChart = dynamic(() => import("../components/BarChart/index"), {
   ssr: false,
@@ -78,34 +77,106 @@ const Home: NextPage = () => {
 
           <div className="m-1 p-4 bg-white rounded">
             <p className="text-xl font-bold">{geo_name} Summary</p>
-            <p className="mt-2">
-              Population:{" "}
-              {summary?.total_population_2021.toLocaleString("en-US", {
-                maximumFractionDigits: 2,
-              })}
-            </p>
-            <p className="my-1">
-              Population Growth since 2016:{" "}
-              {summary?.total_population_percentage_change_2016_to_2021}%
-            </p>
-            <p className="my-1">
-              Population Density:{" "}
-              {summary?.total_population_density_per_square_kilometre} per
-              square kilometre
-            </p>
-            <p className="my-1">
-              Median Income: $
-              {summary?.total_median_employment_income_in_2020_among_recipients.toLocaleString(
-                "en-US",
-                { maximumFractionDigits: 2 }
-              )}
-            </p>
-            <p className="my-1">
-              Average Householdsize: {summary?.total_average_household_size}
-            </p>
-            <p className="my-1">
-              Median Age: {summary?.total_median_age_of_the_population}
-            </p>
+            <table className="min-w-full">
+              <thead className="bg-white border-b">
+                <tr>
+                  <th
+                    scope="col"
+                    className="text-sm font-medium text-gray-900 px-6 py-4 text-left"
+                  >
+                    Category
+                  </th>
+                  <th
+                    scope="col"
+                    className="text-sm font-medium text-gray-900 px-6 py-4 text-center"
+                  >
+                    Stat
+                  </th>
+                  <th
+                    scope="col"
+                    className="text-sm font-medium text-gray-900 px-6 py-4 text-right"
+                  >
+                    Rank <br />
+                    (out of 13)
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="bg-secondary border-b">
+                  <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                    Population
+                  </td>
+                  <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap text-center">
+                    {summary?.total_population_2021.toLocaleString("en-US", {
+                      maximumFractionDigits: 2,
+                    })}
+                  </td>
+                  <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap text-right">
+                    %
+                  </td>
+                </tr>
+                <tr className="bg-white border-b">
+                  <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                    Population Growth
+                  </td>
+                  <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap text-center">
+                    {summary?.total_population_percentage_change_2016_to_2021} %
+                  </td>
+                  <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap text-right">
+                    %
+                  </td>
+                </tr>
+                <tr className="bg-secondary border-b">
+                  <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                    Population Density
+                  </td>
+                  <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap text-center">
+                    {summary?.total_population_density_per_square_kilometre} per
+                    km&sup2;
+                  </td>
+                  <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap text-right">
+                    %
+                  </td>
+                </tr>
+                <tr className="bg-white border-b">
+                  <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                    Average Household Size
+                  </td>
+                  <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap text-center">
+                    {summary?.total_average_household_size} per home
+                  </td>
+                  <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap text-right">
+                    %
+                  </td>
+                </tr>
+                <tr className="bg-secondary border-b">
+                  <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                    Median Age
+                  </td>
+                  <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap text-center">
+                    {summary?.total_median_age_of_the_population}
+                  </td>
+                  <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap text-right">
+                    %
+                  </td>
+                </tr>
+                <tr className="bg-white border-b">
+                  <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                    Median Income
+                  </td>
+                  <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap text-center">
+                    $
+                    {summary?.total_median_employment_income_in_2020_among_recipients.toLocaleString(
+                      "en-US",
+                      { maximumFractionDigits: 2 }
+                    )}
+                  </td>
+                  <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap text-right">
+                    %
+                  </td>
+                </tr>
+              </tbody>
+            </table>
           </div>
           <div className="m-1 p-2 bg-white rounded">
             <p className="text-xl text-center">Age Chart</p>
