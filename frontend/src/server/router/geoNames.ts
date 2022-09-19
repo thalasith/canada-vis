@@ -13,6 +13,7 @@ export const geoNamesRouter = createRouter().query("getGeoNameByDGUID", {
     const geo_name = await ctx.prisma.geo_names.findFirst({
       where: { dguid: input.dguid },
     });
-    return geo_name?.geo_name;
+
+    return geo_name;
   },
 });

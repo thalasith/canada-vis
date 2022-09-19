@@ -31,13 +31,17 @@ const Home: NextPage = () => {
     "geoNames.getGeoNameByDGUID",
     { dguid: selectedDGUID },
   ]);
+
   const { data: summary } = trpc.useQuery([
     "summary.getSummaryByDGUID",
     { dguid: selectedDGUID },
   ]);
+  const { data: incomeRanks } = trpc.useQuery([
+    "summary.getIncomeRankByDGUID",
+    { dguid: selectedDGUID },
+  ]);
+  console.log(incomeRanks);
 
-  // const { data: test } = trpc.useQuery(["summary.getIncomeRanks"]);
-  // console.log(test);
   return (
     <>
       <Head>
@@ -76,7 +80,7 @@ const Home: NextPage = () => {
           </div>
 
           <div className="m-1 p-4 bg-white rounded">
-            <p className="text-xl font-bold">{geo_name} Summary</p>
+            <p className="text-xl font-bold">{geo_name?.geo_name} Summary</p>
             <table className="min-w-full">
               <thead className="bg-white border-b">
                 <tr>
@@ -97,7 +101,7 @@ const Home: NextPage = () => {
                     className="text-sm font-medium text-gray-900 px-6 py-4 text-right"
                   >
                     Rank <br />
-                    (out of 13)
+                    (out of {incomeRanks?.total})
                   </th>
                 </tr>
               </thead>
@@ -112,7 +116,7 @@ const Home: NextPage = () => {
                     })}
                   </td>
                   <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap text-right">
-                    %
+                    # {incomeRanks?.pop_rank}
                   </td>
                 </tr>
                 <tr className="bg-white border-b">
@@ -123,7 +127,7 @@ const Home: NextPage = () => {
                     {summary?.total_population_percentage_change_2016_to_2021} %
                   </td>
                   <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap text-right">
-                    %
+                    # {incomeRanks?.pop_growth_rank}
                   </td>
                 </tr>
                 <tr className="bg-secondary border-b">
@@ -135,7 +139,7 @@ const Home: NextPage = () => {
                     km&sup2;
                   </td>
                   <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap text-right">
-                    %
+                    # {incomeRanks?.pop_density_rank}
                   </td>
                 </tr>
                 <tr className="bg-white border-b">
@@ -146,7 +150,7 @@ const Home: NextPage = () => {
                     {summary?.total_average_household_size} per home
                   </td>
                   <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap text-right">
-                    %
+                    # {incomeRanks?.household_size_rank}
                   </td>
                 </tr>
                 <tr className="bg-secondary border-b">
@@ -157,7 +161,7 @@ const Home: NextPage = () => {
                     {summary?.total_median_age_of_the_population}
                   </td>
                   <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap text-right">
-                    %
+                    # {incomeRanks?.age_rank}
                   </td>
                 </tr>
                 <tr className="bg-white border-b">
@@ -172,7 +176,7 @@ const Home: NextPage = () => {
                     )}
                   </td>
                   <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap text-right">
-                    %
+                    # {incomeRanks?.income_rank}
                   </td>
                 </tr>
               </tbody>

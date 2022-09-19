@@ -64,7 +64,7 @@ model geo_names {
     alt_geo_code BigInt
     geo_level String
     geo_name String
-    parent_dguid String
+    parent_dguid String 
 }
 
 model geo_areas {

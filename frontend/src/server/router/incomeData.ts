@@ -67,7 +67,7 @@ export const incomeDataRouter = createRouter().query("getIncomeDataByDGUID", {
 
     const index = [12, 11, 0, 3, 4, 5, 6, 7, 8, 9, 10, 1, 2];
     const output = index.map((i) => results[i]);
-    console.log(output);
+
     return output;
   },
 });
