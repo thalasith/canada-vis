@@ -10,7 +10,6 @@ datasource db {
   url = env("DATABASE_URL")
 }
 
-
 model age_groups {
     index BigInt @id 
     dguid String
@@ -106,6 +105,18 @@ model income_groups {
     female_90000_to_99999 Float
     female_under_10000 Float
     female_without_total_income Float
+}
+
+model ranks {
+    index BigInt @id
+    dguid String
+    parent_dguid String 
+    pop_rank Float
+    pop_growth_rank	Float
+    pop_density_rank Float
+    household_size_rank	Float
+    age_rank Float
+    income_rank Float
 }
 
 model summary {

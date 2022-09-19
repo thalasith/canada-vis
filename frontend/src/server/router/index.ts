@@ -7,6 +7,7 @@ import { geoNamesRouter } from "./geoNames";
 import { geoAreasRouter } from "./geoAreas";
 import { summaryRouter } from "./summary";
 import { incomeDataRouter } from "./incomeData";
+import { ranksRouter } from "./ranks";
 
 export const appRouter = createRouter()
   .transformer(superjson)
@@ -14,7 +15,8 @@ export const appRouter = createRouter()
   .merge("geoNames.", geoNamesRouter)
   .merge("geoAreas.", geoAreasRouter)
   .merge("summary.", summaryRouter)
-  .merge("incomeData.", incomeDataRouter);
+  .merge("incomeData.", incomeDataRouter)
+  .merge("ranks.", ranksRouter);
 
 // export type definition of API
 export type AppRouter = typeof appRouter;
