@@ -101,7 +101,7 @@ const Home: NextPage = () => {
                     className="text-sm font-medium text-gray-900 px-6 py-4 text-right"
                   >
                     Rank <br />
-                    (out of {ranks?.total})
+                    {/* (out of {ranks?.total}) */}
                   </th>
                 </tr>
               </thead>
