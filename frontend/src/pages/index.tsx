@@ -51,6 +51,7 @@ const Home: NextPage = () => {
       </Head>
 
       <Header />
+
       <main className="container mx-auto min-h-screen min-v-screen p-4 ">
         <div className="grid lg:grid-cols-2">
           <div className="m-1 p-2 bg-white rounded">
