@@ -40,7 +40,7 @@ const CustomTooltip = ({ active, payload, label }: any) => {
   return null;
 };
 
-const TestChart = ({ data, key1, key2 }: any) => {
+const GenderChart = ({ data, key1, key2 }: any) => {
   return (
     <ResponsiveContainer width="95%" height={400}>
       <BarChart
@@ -60,11 +60,21 @@ const TestChart = ({ data, key1, key2 }: any) => {
         />
         <Legend />
         <Tooltip content={<CustomTooltip />} />
-        <Bar dataKey={key1} stackId="a" fill="#D62618" />
-        <Bar dataKey={key2} stackId="a" fill="#FFBABA" />
+        <Bar
+          dataKey={key1}
+          name={capitalizeFirstLetter(key1)}
+          stackId="a"
+          fill="#D62618"
+        />
+        <Bar
+          dataKey={key2}
+          name={capitalizeFirstLetter(key2)}
+          stackId="a"
+          fill="#FFBABA"
+        />
       </BarChart>
     </ResponsiveContainer>
   );
 };
 
-export default TestChart;
+export default GenderChart;

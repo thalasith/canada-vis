@@ -101,6 +101,10 @@ export const ageDataRouter = createRouter().query("getAgeDataByDGUID", {
       }
     });
 
+    Object.entries(results).forEach(([key, value]: any) => {
+      results[key].name = value.name.replace("years", "Y/O");
+    });
+
     return results;
   },
 });

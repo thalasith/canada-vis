@@ -67,6 +67,19 @@ export const incomeDataRouter = createRouter().query("getIncomeDataByDGUID", {
 
     const index = [12, 11, 0, 3, 4, 5, 6, 7, 8, 9, 10, 1, 2];
     const output = index.map((i) => results[i]);
+    Object.entries(output).forEach(([key, value]: any) => {
+      const list: string[] = value.name.split(" ");
+      list.forEach((item: string) => {
+        if (parseInt(item)) {
+          list[list.indexOf(item)] = parseInt(item).toLocaleString("en-US");
+        } else if (item === "under" || item === "without") {
+          list[list.indexOf(item)] =
+            item.charAt(0).toUpperCase() + item.slice(1);
+        }
+      });
+      // list[0] = list[0].charAt(0).toUpperCase() + list[0]?.slice(1);
+      output[key].name = list.join(" ");
+    });
 
     return output;
   },
